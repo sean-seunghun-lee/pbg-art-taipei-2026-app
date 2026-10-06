@@ -4,6 +4,7 @@
   const artistBy = Object.fromEntries(data.artists.map(a => [a.slug, a]));
   const workBy = Object.fromEntries(data.works.map(w => [w.id, w]));
   const INQUIRY = 'shlee@printbakery.com';
+  const WHATSAPP = 'https://wa.me/821050138072';
   const PDF = 'PBG_ART_TPE26_Factsheet.pdf';
 
   const esc = s => String(s ?? '').replace(/[&<>"']/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]));
@@ -94,6 +95,7 @@
     const next = data.works[(i + 1) % data.works.length];
     const subject = encodeURIComponent(`[ART TAIPEI 2026] Inquiry: ${a.name} – ${w.title}`);
     const body = encodeURIComponent(`Hello PBG,\n\nI am interested in the following work:\n${a.name}, ${w.title}${w.year ? ', ' + w.year : ''}\n${w.medium}\n${w.dimensions}\nUSD ${w.usd}\n\nName:\nPhone:\n`);
+    const waText = encodeURIComponent(`Hello PBG, I am interested in ${a.name}, "${w.title}"${w.year ? " (" + w.year + ")" : ""} – USD ${w.usd} (ART TAIPEI 2026, Booth ${data.fair.booth}).`);
     const rows = [['Year', w.year], ['Medium', w.medium], ['Size', w.dimensions], ['Frame', w.frame]]
       .filter(r => r[1]).map(r => `<dt>${r[0]}</dt><dd>${esc(r[1])}</dd>`).join('');
     app.innerHTML = `<a class="back" href="#/">← All works</a>
@@ -109,6 +111,7 @@
           <div class="price"><div class="usd">USD ${esc(w.usd)}</div><div class="twd">TWD ${esc(w.twd)}</div></div>
           <div class="actions">
             <a class="btn" href="mailto:${INQUIRY}?subject=${subject}&body=${body}">Inquire about this work</a>
+            <a class="btn wa" href="${WHATSAPP}?text=${waText}" target="_blank" rel="noopener">Inquire on WhatsApp</a>
             <a class="btn ghost" href="#/artist/${a.slug}">About the artist</a>
           </div>
         </div>
@@ -126,7 +129,8 @@
     app.innerHTML = `<div class="fairbox"><h2>ART TAIPEI 2026 · Booth ${esc(data.fair.booth)}</h2>
         <p>${esc(data.fair.dates)} · ${esc(data.fair.venue)}</p>
         <div class="actions"><a class="btn" href="${PDF}" download>Download factsheet (PDF)</a>
-          <a class="btn ghost" href="mailto:${INQUIRY}">Contact ${INQUIRY}</a></div></div>
+          <a class="btn ghost" href="mailto:${INQUIRY}">Contact ${INQUIRY}</a>
+          <a class="btn wa" href="${WHATSAPP}?text=${encodeURIComponent(`Hello PBG, I have a question about your ART TAIPEI 2026 booth (${data.fair.booth}).`)}" target="_blank" rel="noopener">WhatsApp</a></div></div>
       <div class="sec-h"><h2>Gallery Information</h2></div>
       <div class="locs">${data.gallery.map(g => `<div><h3>${esc(g.name)}</h3><p>${g.lines.map(l =>
         /@/.test(l) && !/\s/.test(l) ? `<a href="mailto:${esc(l)}">${esc(l)}</a>` : esc(l)).join('<br>')}</p></div>`).join('')}</div>`;
