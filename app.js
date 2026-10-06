@@ -3,7 +3,7 @@
   const data = await (await fetch('data.json')).json();
   const artistBy = Object.fromEntries(data.artists.map(a => [a.slug, a]));
   const workBy = Object.fromEntries(data.works.map(w => [w.id, w]));
-  const INQUIRY = 'pbg@printbakery.com';
+  const INQUIRY = 'shlee@printbakery.com';
   const PDF = 'PBG_ART_TPE26_Factsheet.pdf';
 
   const esc = s => String(s ?? '').replace(/[&<>"']/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]));
