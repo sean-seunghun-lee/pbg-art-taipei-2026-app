@@ -11,6 +11,11 @@
   const bline = a => [a.born && `b. ${a.born}`, a.country].filter(Boolean).join(', ');
   const ig = a => a.instagram ? `<a href="https://www.instagram.com/${esc(a.instagram)}/" target="_blank" rel="noopener">@${esc(a.instagram)}</a>` : '';
 
+  // intro language: remembered per viewer; Chinese-language phones start in 繁體中文
+  let lang = 'en';
+  try { lang = localStorage.getItem('pbg-lang') || ((navigator.language || '').toLowerCase().startsWith('zh') ? 'zh' : 'en'); } catch (e) {}
+  const paras = t => (t || '').split(/\n+/).filter(Boolean).map(p => `<p>${esc(p)}</p>`).join('');
+
   // filters persist while browsing
   const state = { artist: 'all', price: 'all', sort: 'featured' };
   const PRICE = {
@@ -69,20 +74,29 @@
   function viewArtist(slug) {
     const a = artistBy[slug];
     if (!a) return notFound();
-    const paras = (a.intro || '').split(/\n+/).filter(Boolean).map(p => `<p>${esc(p)}</p>`).join('');
+    const cur = a.introZh ? lang : 'en';
     const works = a.works.map(id => workBy[id]);
     app.innerHTML = `<a class="back" href="#/artists">← All artists</a>
       <section class="artist-head">
         ${a.portrait ? `<div class="por"><img src="${a.portrait.src}" alt="${esc(a.name)}"></div>` : ''}
         <div><h1>${esc(a.name)}</h1><div class="cn">${esc(a.nameCn)}</div>
           <div class="bl">${esc(bline(a))}${a.instagram ? ' · ' + ig(a) : ''}</div>
-          <div class="intro">${paras}</div></div>
+          ${a.introZh ? `<div class="lang"><button data-lang="en" class="${cur === 'en' ? 'on' : ''}">English</button><button data-lang="zh" class="${cur === 'zh' ? 'on' : ''}">繁體中文</button></div>` : ''}
+          <div class="intro" id="intro" lang="${cur === 'zh' ? 'zh-Hant-TW' : 'en'}">${paras(cur === 'zh' ? a.introZh : a.intro)}</div></div>
       </section>
       <div class="sec-h"><h2>Works at Booth ${esc(data.fair.booth)}</h2><span class="count">${works.length}</span></div>
       <div class="grid">${works.map(card).join('')}</div>
       ${a.cv && a.cv.length ? `<div class="sec-h"><h2>CV</h2></div><div class="cv">${a.cv.map((s, i) => `
         <details ${i === 0 ? 'open' : ''}><summary>${esc(s.heading)}</summary>
           <ul>${s.lines.map(l => `<li>${esc(l)}</li>`).join('')}</ul></details>`).join('')}</div>` : ''}`;
+    app.querySelectorAll('[data-lang]').forEach(b => b.onclick = () => {
+      lang = b.dataset.lang;
+      try { localStorage.setItem('pbg-lang', lang); } catch (e) {}
+      app.querySelectorAll('[data-lang]').forEach(x => x.classList.toggle('on', x === b));
+      const box = app.querySelector('#intro');
+      box.lang = lang === 'zh' ? 'zh-Hant-TW' : 'en';
+      box.innerHTML = paras(lang === 'zh' ? a.introZh : a.intro);
+    });
   }
 
   function viewWork(id) {

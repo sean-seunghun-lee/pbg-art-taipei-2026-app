@@ -115,6 +115,10 @@ select { font: inherit; font-size: 13px; border: 1px solid var(--line); border-r
 .intro p { margin: 0 0 12px; }
 .cv { margin: 10px 0 40px; border-top: 1px solid var(--line); }
 .cv details { border-bottom: 1px solid var(--line); }
+.lang { display: inline-flex; margin-top: 18px; border: 1px solid var(--line); border-radius: 999px; padding: 3px; }
+.lang button { border: 0; background: none; padding: 5px 14px; border-radius: 999px; font-size: 13px; cursor: pointer; color: var(--muted); }
+.lang button.on { background: var(--ink); color: #fff; }
+.intro:lang(zh-Hant-TW) { line-height: 1.85; letter-spacing: .02em; }
 .cv summary { cursor: pointer; list-style: none; padding: 14px 0; font-weight: 600; font-size: 14px; letter-spacing: .02em; display: flex; justify-content: space-between; }
 .cv summary::-webkit-details-marker { display: none; }
 .cv summary::after { content: "+"; font-weight: 400; color: var(--muted); }
