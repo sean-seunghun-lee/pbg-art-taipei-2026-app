@@ -81,7 +81,7 @@
         ${a.portrait ? `<div class="por"><img src="${a.portrait.src}" alt="${esc(a.name)}"></div>` : ''}
         <div><h1>${esc(a.name)}</h1><div class="cn">${esc(a.nameCn)}</div>
           <div class="bl">${esc(bline(a))}${a.instagram ? ' · ' + ig(a) : ''}</div>
-          ${a.introZh ? `<div class="lang"><button data-lang="en" class="${cur === 'en' ? 'on' : ''}">English</button><button data-lang="zh" class="${cur === 'zh' ? 'on' : ''}">繁體中文</button></div>` : ''}
+          ${a.introZh ? `<div class="lang"><button data-lang="en" class="${cur === 'en' ? 'on' : ''}">English</button><button data-lang="zh" class="${cur === 'zh' ? 'on' : ''}">中文</button></div>` : ''}
           <div class="intro" id="intro" lang="${cur === 'zh' ? 'zh-Hant-TW' : 'en'}">${paras(cur === 'zh' ? a.introZh : a.intro)}</div></div>
       </section>
       <div class="sec-h"><h2>Works at Booth ${esc(data.fair.booth)}</h2><span class="count">${works.length}</span></div>
