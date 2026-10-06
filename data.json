@@ -1,0 +1,1331 @@
+{
+ "fair": {
+  "name": "ART TAIPEI 2026",
+  "booth": "C04",
+  "dates": "29 Oct – 2 Nov 2026",
+  "venue": "Taipei World Trade Center, Taipei"
+ },
+ "cover": {
+  "src": "img/cover.jpg",
+  "w": 1607,
+  "h": 2000
+ },
+ "gallery": [
+  {
+   "name": "PBG Dosan",
+   "lines": [
+    "B1, 864, Eonju-ro, Gangnam-gu",
+    "Seoul 06017, South Korea",
+    "Tue: Sun, 11AM: 7PM",
+    "pbg@printbakery.com"
+   ]
+  },
+  {
+   "name": "PBG The Hyundai Seoul",
+   "lines": [
+    "2F, 108, Yeoui-daero, Yeongdeungpo-gu",
+    "Seoul 07335, South Korea",
+    "Mon: Thu, 10:30AM: 8PM",
+    "Fri: Sun, 10:30AM: 8:30PM"
+   ]
+  },
+  {
+   "name": "PBG Marais | K.ulture",
+   "lines": [
+    "5 Rue du Grenier-Saint-Lazare",
+    "Paris 75003, France",
+    "Tue: Sat, 11AM: 7PM"
+   ]
+  }
+ ],
+ "artists": [
+  {
+   "slug": "jae-yong-kim",
+   "name": "Jae Yong Kim",
+   "nameCn": "金載容",
+   "born": "1973",
+   "country": "Korea",
+   "instagram": "jaeyongkim_official",
+   "works": [
+    "jae-yong-kim-1",
+    "jae-yong-kim-2"
+   ],
+   "intro": "Jae Yong Kim has gained international recognition for his colourful donut ceramic sculptures. The donut, a universally recognizable form, serves as a medium for the artist to incorporate elements from various cultures, including tigers and magpies from Korean folk art, unicorns from Western mythology, and arabesque patterns from the Middle East. These diverse cultural elements, which he has experienced since childhood, blend to symbolise the borderless world of today. Born in Seoul, Kim lives and works in Seoul and New York. He received his BFA in Ceramics & Sculpture from Hartford Art School, University of Hartford, and his MFA in Ceramics from Cranbrook Academy of Art, and has been an Assistant Professor in the Department of Ceramics at Seoul National University of Science & Technology since 2015. His works have been exhibited at institutions including the Powerlong Museum, Shanghai, and the Gwangju Museum of Arts, and are held in public collections such as the Powerlong Museum, the Dennos Museum Center and the University of Hartford.",
+   "portrait": {
+    "src": "img/jae-yong-kim-portrait.jpg",
+    "w": 150,
+    "h": 150
+   },
+   "cv": [
+    {
+     "heading": "Education",
+     "lines": [
+      "B.F.A. Ceramics & Sculpture, Hartford Art School, University of Hartford, US",
+      "M.F.A. Ceramics, Cranbrook Academy of Art, US"
+     ]
+    },
+    {
+     "heading": "Selected Solo Exhibitions",
+     "lines": [
+      "2025  Run Donut Run, Hakgojae Gallery, Seoul, KR",
+      "2024  SWEET SWEAT, Hakgojae Gallery, Seoul, KR",
+      "2023  THINK BIG!, Art Space HoHwa, Seoul, KR",
+      "2021  DONUT FEAR, Tang Contemporary Art, Bangkok, TH",
+      "2021  SHOOT!, Shinsegae Gallery, Daegu, KR",
+      "2020  DONUT FEAR, Hakgojae Gallery, Seoul, KR",
+      "2020  Garden of Donuts, MIXC, Shenyang, CN",
+      "2019  I Love Donuts, Powerlong Museum, Shanghai, CN",
+      "2019  Donut Ever Forget Me, Boise Art Museum, Boise, US",
+      "2018  We Love Donuts, L'Avenue, Shanghai, CN",
+      "2017  I Love Donut, Gallery by the Harbour, Hong Kong",
+      "2016  Pop Goes the Donut, Lyons Wier Gallery, New York, US",
+      "2015  Can't Stop Thinking About..., Dennos Museum Center, Traverse City, US",
+      "2014  Donut Rush, Lyons Wier Gallery, New York, US"
+     ]
+    },
+    {
+     "heading": "Public Collection",
+     "lines": [
+      "Dennos Museum Center, Traverse City, US",
+      "Powerlong Museum, Shanghai, CN",
+      "Royal Caribbean Cruises Ltd., Miami, US",
+      "Resorts World Las Vegas, Las Vegas, US",
+      "Fidelity Investments Corporate Art Collection, Boston, US",
+      "W Hotels, Xiamen, CN"
+     ]
+    },
+    {
+     "heading": "Selected Group Exhibitions",
+     "lines": [
+      "2025  It Only Happens to Everyone, ASKERI Gallery, Moscow, RU",
+      "2022  Happy Holiday, Shinsegae Gallery, Seoul, KR",
+      "2022  HAPPY POP!, Shinsegae Gallery, Daejeon, KR",
+      "2022  The Review, Paradise City, Incheon, KR",
+      "2022  Echoes of Beauty, ICONSIAM, Bangkok, TH",
+      "2021  Moscow-Seoul: Common Ideas, Museum of Moscow, Moscow, RU",
+      "2020  SLOW ART ASIA 2020, Waterfall Mansion & Gallery, New York, US",
+      "2019  Off Menu: Contemporary Art About Food, Bedford Gallery, Walnut Creek, US",
+      "2019  Visual Delights, Gwangju Museum of Arts, Gwangju, KR",
+      "2019  Céramiques Gourmandes, Fondation d'Entreprise Bernardaud, Limoges, FR",
+      "2019  Conversations: Contemporary Asian Art, Hermitage Museum & Gardens, Norfolk, US"
+     ]
+    },
+    {
+     "heading": "Art Fairs",
+     "lines": [
+      "2026  Art Taipei, Taipei World Trade Center, Taipei, TW"
+     ]
+    }
+   ]
+  },
+  {
+   "slug": "moon-hyeongtae",
+   "name": "Moon Hyeongtae",
+   "nameCn": "文亨泰",
+   "born": "1976",
+   "country": "Korea",
+   "instagram": "moonhyeongtae",
+   "works": [
+    "moon-hyeongtae-1",
+    "moon-hyeongtae-2",
+    "moon-hyeongtae-3"
+   ],
+   "intro": "Hyeongtae Moon creates a rich world in his paintings that merges expressionist and surrealist ideologies. The influence of CoBRA and Jean Dubuffet can be seen in the childlike distortions, symbolic coding, and warm ochre shades in Moon’s works. The act of repeatedly washing the canvases with water and soil collected from meaningful places in his life, is a signature technique of Moon’s. This unique method, of his, grounds each work in personal memory. The figures in his paintings are simplified yet still somehow expressive. They are often layered with symbolic numbers: 1 for the self, 2 for relationships, 3 for family, 4 for society, and 5 for solitude. Moon’s recent works such as Roof and Merry-Go-Round continue his exploration of intimacy, nostalgia, and the whimsy of everyday life, rendered in bold colors and tactile surfaces that evoke both joy and inner struggle.",
+   "portrait": {
+    "src": "img/moon-hyeongtae-portrait.jpg",
+    "w": 640,
+    "h": 853
+   },
+   "cv": [
+    {
+     "heading": "Education",
+     "lines": [
+      "B.F.A in Painting, Department of Fine Arts, Chosun University, Gwangju, KR"
+     ]
+    },
+    {
+     "heading": "Selected Solo Exhibitions",
+     "lines": [
+      "2026  Saved Shoes, PBG Marais, Paris, FR",
+      "2024  Perfect Picture, Gana Art Center, Seoul, KR",
+      "2022  CHOCKABLOCK, Gana Art Center, Seoul, KR",
+      "2022  HYEONGTAE MOON, Gallery Mac, Busan, KR",
+      "2020  HYEONGTAE MOON, Gana Art Nineone, Seoul, KR",
+      "2020  Fantastic Man, Gallery Sun, Seoul, KR",
+      "2020  Be With, MUE, Seoul, KR",
+      "2019  Gulliver, SH Art Project, Tokyo, JP",
+      "2019  Grimhilde, Gallery Mac, Busan, KR",
+      "2018  Apple, Printbakery, Seoul, KR",
+      "2018  Tagger, SH Art Project, Tokyo, JP",
+      "2017  Unicorn, Gallery Sun, Seoul, KR",
+      "2014  True, lies of Life, Able Gallery, New York, US"
+     ]
+    },
+    {
+     "heading": "Selected Group Exhibitions",
+     "lines": [
+      "2026  The Founding Constellation, PBG Dosan, Seoul, KR",
+      "2025  The Days We Draw, Gwangju Museum of Art, Gwangju, KR",
+      "2023  Image and Matter, Gana Art Center, Seoul, KR",
+      "2021  Physical to Digital, Shinsegae Gallery, Seoul, KR",
+      "2021  Dear Friend, PBG Gallery, Seoul, KR",
+      "2020  Super Collection, Superiore Gallery, Seoul, KR",
+      "2020  Happy Painting, Gallery Mac, Busan, KR",
+      "2019  Art Supermarket, Gana Art Center, Seoul, KR",
+      "2018  Dear, My Wedding Dress, Seoul Museum, Seoul, KR",
+      "2017  My Petit Collection, Print Bakery, Seoul, KR"
+     ]
+    },
+    {
+     "heading": "Art Fairs",
+     "lines": [
+      "2026  Art Taipei, Taipei World Trade Center, Taipei, TW"
+     ]
+    }
+   ]
+  },
+  {
+   "slug": "yi-yi-jeong-eun",
+   "name": "Yi Yi Jeong-Eun",
+   "nameCn": "異李貞恩",
+   "born": "1977",
+   "country": "Korea",
+   "instagram": "yiyijeongeun",
+   "works": [
+    "yi-yi-jeong-eun-1",
+    "yi-yi-jeong-eun-2",
+    "yi-yi-jeong-eun-3"
+   ],
+   "intro": "Yi Yi Jeong-eun vividly captures the myriad of sensations and experiences conveyed by nature with her vibrant brushstrokes on canvas, breathing life into them more powerfully than anyone else. The layers of paint meticulously applied on the canvas capture the beauty of nature through the artist's unique working method. In the early stages of her artistic journey, she focused on themes of consumerism, desires within capitalist society, and the subsequent sense of emptiness. Later, venturing beyond the city, chance encounters with nature led to a transformation in her artistic approach. The vitality and energies inherent in nature, as perceived by the artist's gaze, are expressed through delicate brushstrokes on the canvas. These dynamic artworks allow viewers to keenly feel the emotions Yi Yi Jeong-eun experienced in the heart of nature.",
+   "portrait": {
+    "src": "img/yi-yi-jeong-eun-portrait.jpg",
+    "w": 749,
+    "h": 1000
+   },
+   "cv": [
+    {
+     "heading": "Education",
+     "lines": [
+      "2009  M.F.A, Fine Arts, Seoul National University, Seoul, KR",
+      "2005  B.F.A, Fine Arts, Seoul National University, Seoul, KR"
+     ]
+    },
+    {
+     "heading": "Selected Solo Exhibitions",
+     "lines": [
+      "2026  Now, Here, On Being Alive, PBG Marais, Paris, FR",
+      "2025  The Season of Senses, Gallery Jinsun, Seoul, KR",
+      "2025  Brushes in Bloom, Print Bakery Pangyo, Seongnam, KR",
+      "2024  Being Zen, Ora-Ora, Hong Kong SAR",
+      "2024  Being Zen, Space97, Seoul, KR",
+      "2024  Yi-Yi-Hada-邐迤, PBG The Hyundai, Seoul, KR",
+      "2023  Alive, Alive, Oh!, Ora-Ora, Hong Kong SAR",
+      "2022  The Human Gesture Toward Perfection, Shinsegae Gallery, Seoul, KR",
+      "2022  There, Breaking Through, Print Bakery Pangyo, Seongnam, KR",
+      "2021  On Being Alive, Gallery Choi, Seoul, KR",
+      "2021  Fragments of Scenery, Rund Gallery, Seoul, KR",
+      "2019  There, The Forest Gallery, Seoul, KR",
+      "2017  Swinging Emotions, Kiss Gallery, Seoul, KR",
+      "2014  Monument for Someone, Label Gallery, Seoul, KR",
+      "2010  Somebody Else’s Monument, Gana Contemporary, Seoul, KR"
+     ]
+    },
+    {
+     "heading": "Residency",
+     "lines": [
+      "2026  Cité Internationale des Arts, Gana Art Foundation, Paris, FR"
+     ]
+    },
+    {
+     "heading": "Awards",
+     "lines": [
+      "2002  Special Recognition, The 6th Na Hye-seok Woman Art Competition, KR"
+     ]
+    },
+    {
+     "heading": "Selected Group Exhibitions",
+     "lines": [
+      "2026  The Founding Constellation, PBG Dosan, Seoul, KR",
+      "2026  Remembered Moments, SOKA Art, Taipei, TW",
+      "2024  Love Meets Hope, PBG Hannam, Seoul, KR",
+      "2024  NEW WORK, PBG Hannam, Seoul, KR",
+      "2023  The Rite of Spring, Shinsegae Gallery, Daegu, KR",
+      "2023  Artist 8 With G Contemporary, G Contemporary, Seoul, KR",
+      "2023  All That Drawing, Atertain Gallery, Seoul, KR",
+      "2022  New Memories in Holiday, Artside Gallery, Seoul, KR",
+      "2022  Blacklot Art Week, Seoul Auction, Seoul, KR",
+      "2022  Restart 3040, Art Space Hoseo, Seoul, KR",
+      "2021  Discoveries, Herald Artday, Suwon, KR"
+     ]
+    },
+    {
+     "heading": "Selected Art Fairs",
+     "lines": [
+      "2026  Art Taipei, Taipei World Trade Center, Taipei, TW",
+      "2026  Galleries Art Fair, COEX, Seoul, KR",
+      "2025  Art Taipei, Taipei World Trade Center, Taipei, TW",
+      "2025  Kiaf SEOUL, COEX, Seoul, KR",
+      "2025  Galleries Art Fair, COEX, Seoul, KR",
+      "2024  Kiaf SEOUL, COEX, Seoul, KR",
+      "2024  Art Busan, BEXCO, Busan, KR",
+      "2023  Kiaf SEOUL, COEX, Seoul, KR",
+      "2023  Galleries Art Fair, COEX, Seoul, KR",
+      "2022  Galleries Art Fair, SETEC, Seoul, KR",
+      "2022  Art Busan, BEXCO, Busan, KR"
+     ]
+    }
+   ]
+  },
+  {
+   "slug": "jin-young",
+   "name": "Jin Young",
+   "nameCn": "朴辰英",
+   "born": "1982",
+   "country": "Korea",
+   "instagram": "hwnie702",
+   "works": [
+    "jin-young-1",
+    "jin-young-2",
+    "jin-young-3",
+    "jin-young-4"
+   ],
+   "intro": "Jin Young, an artist renowned for her anthropomorphized \"Piano-Playing Parrot\" rendered with deeply evocative colors rooted in traditional Korean painting, captures the essence of contemporary life through her distinctive lens. The \"parrot-headed figures\" frequently appearing in her works symbolize modern individuals who unconsciously mimic and repeat the actions of others. Jin Young portrays the boundaries of life as islands, yet views the world through the innocent eyes of a child who floats balloons of hope and flies kites within these spaces. Her art reminds us that hope exists here and now, within us, urging us to live fully in the present like children - embracing life with no room for hatred, only love. She emphasizes that even in the repetitive cycles of daily life, the answers to living are clear: the hidden melodies and resonances of life reveal themselves when boundaries dissolve and connections are formed.",
+   "portrait": {
+    "src": "img/jin-young-portrait.jpg",
+    "w": 661,
+    "h": 992
+   },
+   "cv": [
+    {
+     "heading": "Education",
+     "lines": [
+      "M.F.A in Korean Painting, Kyung Hee University, KR",
+      "B.F.A in Korean Painting, Kyung Hee University, KR"
+     ]
+    },
+    {
+     "heading": "Solo Exhibitions",
+     "lines": [
+      "2026  Flatland, PBG Dosan, Seoul, KR",
+      "2025  Somewhere far away, Print Bakery Centum City; Pangyo, KR",
+      "2024  Between, Gallery Arte K, Seoul, KR",
+      "2023  MELODY, Gallery Bellevie, Seoul, KR",
+      "2023  Where I stand, Platinum Gallery, Seoul, KR",
+      "2022  We're all connected, Gallery Bellevie, Seoul, KR",
+      "2022  Something Great, GS Tower The Street Gallery, Seoul, KR",
+      "2021  Beyond Thinking, Korean Minhwa Museum, Gangjin, KR",
+      "2020  Big Night, H Contemporary Gallery, Seoul, KR",
+      "2020  View point, Gallery Ilho, Seoul, KR"
+     ]
+    },
+    {
+     "heading": "Selected Group Exhibitions",
+     "lines": [
+      "2026  The Founding Constellation, PBG Dosan, Seoul, KR",
+      "2026  Green Green Museum, Suwon Museum of Art, Suwon, KR",
+      "2025  Echoes Within, Gallery Bellevie, Seoul, KR",
+      "2025  Take the Flower Seriously, 333 Gallery, Seoul, KR",
+      "2025  Welcome to Our Sweet Land!, Sacheon Cultural Foundation Museum, Sacheon, KR",
+      "2024  Bridge of Art, Art Anton Gallery, Manila, PH",
+      "2024  Palette of Emotions, PBG The Hyundai, Seoul, KR",
+      "2024  Piece of Mind, Gallery Joeun, Seoul, KR",
+      "2023  We Love Korea, WHITE STONE Seoul, Seoul, KR",
+      "2023  Rabbit on the Moon, Platinum Gallery, Seoul, KR",
+      "2022  Pleasant Daily Life, Korean Minhwa Museum, Gangjin, KR",
+      "2022  The Beginning, Printbakery The Hyundai, Seoul, KR",
+      "2021  Gaze, GS E&C Gallery Sisun, Seoul, KR",
+      "2020  KUMA, Kyung Hee University Museum, Seoul, KR"
+     ]
+    },
+    {
+     "heading": "Art Fairs",
+     "lines": [
+      "2026  Art Taipei, Taipei World Trade Center, Taipei, TW"
+     ]
+    }
+   ]
+  },
+  {
+   "slug": "choi-hyeji",
+   "name": "Choi Hyeji",
+   "nameCn": "崔惠智",
+   "born": "1989",
+   "country": "Korea",
+   "instagram": "enosharts",
+   "works": [
+    "choi-hyeji-1"
+   ],
+   "intro": "Choi Hyeji is an artist who tells the story of life and its vibrancy with a particularly unusual medium, cement. Her work captures moments of our lives with vivid colors and matieres that seem to have been created by a child using clay. The artist, who records everything as if it were the feeling of a day viewed through a child's eyes, creates thematic vision by looking at life as the continuation of constant change. In Choi's work, she paints modern people living their daily lives. The people and the impression of themselves to the artist are what she saw when traveling to cities around the world, including New York, Busan, India, and Taipei. Her body of work is represented by the title \"LIFE\". Painted with cement, her work allows anyone who sees it to reflect their own lives. Although cement in some way has cold properties, it is a medium of potency and vitality that supports the artist's perspective.",
+   "portrait": {
+    "src": "img/choi-hyeji-portrait.jpg",
+    "w": 214,
+    "h": 320
+   },
+   "cv": [
+    {
+     "heading": "Education",
+     "lines": [
+      "BFA in Textile Arts, Sangmyung University, KR",
+      "MFA in Fine Arts, Hongik University, KR"
+     ]
+    },
+    {
+     "heading": "Solo Exhibitions",
+     "lines": [
+      "2026 (Forthcoming) PBG Marais, Paris, FR",
+      "2025  LIFE: Studio Paris, Gana Forum Space, Seoul, KR",
+      "2024  LIFE : Panorama, Gana Art Center Space 97, Seoul, KR",
+      "2024  LIFE : Water, Combine Works, Seoul, KR",
+      "2024  LIFE : STREET, PBG, Seoul, KR",
+      "2023  LIFE : BUSAN, La Péniche Gustave, Paris, FR",
+      "2023  LIFE : NEW YORK, PBG, Seoul, KR",
+      "2022  LIFE, PBG, Seoul, KR",
+      "2021  LIFE : COLORS OF INDIA, Gallery41, Seoul, KR",
+      "2021  LIFE : PARK, VIKI Gallery, Seoul, KR",
+      "2021  LIFE, Gallery Dasun, Gwacheon, KR"
+     ]
+    },
+    {
+     "heading": "Residency",
+     "lines": [
+      "2024  Cité Internationale des Arts, Paris, FR"
+     ]
+    },
+    {
+     "heading": "Art Collaboration",
+     "lines": [
+      "2025  Hyeji Choi X Pernod Ricard: Ballantine's Artist Edition"
+     ]
+    },
+    {
+     "heading": "Group Exhibitions",
+     "lines": [
+      "2026  Remembered Moments, Soka Art, Taipei, TW",
+      "2026  The Founding Constellation, PBG Dosan, Seoul, KR",
+      "2025  Seoul, Film And Canvas, Seoul Film Center, Seoul, KR",
+      "2024  LOVE MEETS HOPE, PBG, Seoul, KR",
+      "2024  Cæméntum, Hanyang University Museum, Seoul, KR",
+      "2024  New Work, PBG, Seoul, KR",
+      "2023  JAMUNBAK Rediscovery, Doam Gallery, Seoul, KR",
+      "2022  JAMUNBAK Art Residency Fundraising Exhibition,",
+      "Gana Art, Seoul, KR",
+      "2022  Wildfire Damage Relief Charity Auction, Seoul, KR",
+      "2021  Yeosu International Art Festival, EXPO, Yeosu, KR",
+      "2021  New Thinking New Art, Leeseoul Gallery, Seoul, KR",
+      "2021  New Age Art, Allmeartspace, Seoul, KR",
+      "2021  The next chapter, Gallery Dasun, Gwacheon, KR"
+     ]
+    },
+    {
+     "heading": "Art Fairs",
+     "lines": [
+      "2026  Art Taipei, Taipei World Trade Center, Taipei, TW",
+      "2026  Kiaf SEOUL, COEX, Seoul, KR",
+      "2025  Art Taipei, Taipei World Trade Center, Taipei, TW",
+      "2025  Kiaf SEOUL, COEX, Seoul, KR",
+      "2025  Art Asia Delhi, Yashobhoomi Hall, Delhi, IN",
+      "2024  Art Busan, BEXCO, Busan, KR",
+      "2023  ASIA NOW PARIS, Monnaie de Paris, Paris, FR",
+      "2023  Art Busan, BEXCO, Busan, KR",
+      "2023  LA Art Show, LA Convention Center, LA, US",
+      "2022  Art Busan, BEXCO, Busan, KR",
+      "2021  BAMA, BEXCO, Busan, KR"
+     ]
+    }
+   ]
+  },
+  {
+   "slug": "chungshin",
+   "name": "Chungshin",
+   "nameCn": "金青信",
+   "born": "1981",
+   "country": "Korea",
+   "instagram": "chungshin__official",
+   "works": [
+    "chungshin-1",
+    "chungshin-2",
+    "chungshin-3",
+    "chungshin-4"
+   ],
+   "intro": "Chung Shin draws yellow stills such as tulips and lemons on a well-organized white background with deep charcoal lines to capture the instanteness of the drawing and the visuality of various concepts that are revealed raw. The artist delivers bright and cheerful positive energy to modern people living their busy lives with warm eyes that are everywhere but not seen by anyone. Seeking lines that comfort the heart, the artist says that imagining the coziness of being indoors, moderate splendor, and fruits rolling in the sun arouses the sensation of good feelings. Having done work based on drawings, the artist focuses on revealing through lines the immediacy of drawing as well as the visibility of various concepts that are occasionally revealed raw. Through a warm gaze, ubiquitous but not visible to everyone, the artist attempts to convey a bright and cheerful energy to modern people living busy everyday lives.",
+   "portrait": {
+    "src": "img/chungshin-portrait.jpg",
+    "w": 749,
+    "h": 1000
+   },
+   "cv": [
+    {
+     "heading": "Education",
+     "lines": [
+      "MFA in Painting, Shilla University, KR",
+      "BFA in Painting, Shilla University, KR"
+     ]
+    },
+    {
+     "heading": "Selected Solo Exhibitions",
+     "lines": [
+      "2026  Corolla: A Moment so Sweet, PBG Dosan, Seoul, KR",
+      "2025  On the Radiance of Our Lives, Galleria Department Stores, Seoul; Daejeon; Gwanggyo, KR",
+      "2025  Blooming Rolling Line, Space 97, Seoul, KR",
+      "2025  Still Life, Starbucks Gana Art Park, Jangheung, KR",
+      "2024  To You Who Walk Under the Sun, PBG Hannam, Seoul, KR",
+      "2023  French Freshness: Painters of Light and Line, PBG The Hyundai Seoul, Seoul, KR",
+      "2023  Black Neon: Lines That Swallowed Charcoal, Gana Art Busan, Busan, KR",
+      "2022  A Stroll Through Still Life, Print Bakery Centum City, Busan, KR",
+      "2022  Black Neon: Lines Illuminated by Charcoal, Forum Space, Seoul, KR",
+      "2021  Lines Drawn with Tenderness, Print Bakery Pangyo, Seongnam, KR",
+      "2021  Black Neon: A Certain Still Life, Mac Gallery, Busan, KR"
+     ]
+    },
+    {
+     "heading": "Collaboration",
+     "lines": [
+      "2024  Starbucks Coffee Korea x Chung Shin MD Collaboration"
+     ]
+    },
+    {
+     "heading": "Selected Group Exhibitions",
+     "lines": [
+      "2026  The Founding Constellation, PBG Dosan, Seoul, KR",
+      "2024  Love Meets Hope, PBG Hannam, Seoul, KR",
+      "2024  New Work, PBG Hannam, Seoul, KR",
+      "2021  INTERMISSION, Mac Gallery, Busan, KR",
+      "2021  Happy Painting Exhibition, Mac Gallery, Busan, KR",
+      "2021  E-BID Special Online Auction: Trumpet Speaker, Seoul Auction x Print Bakery, Seoul, KR",
+      "2021  START, Mac Gallery, Busan, KR",
+      "2020  Thank You Gallery, Art Soop Gallery, Busan, KR",
+      "2020  Urban Desert, Hello! Oasis, HHH, Seoul, KR",
+      "2019  Graceful, NYA Center, New York, US"
+     ]
+    },
+    {
+     "heading": "Selected Art Fairs",
+     "lines": [
+      "2026  Art Taipei, Taipei World Trade Center, Taipei, TW",
+      "2023  Asia Now, Monnaie de Paris, Paris, FR",
+      "2023  LA Art Show, LA Convention Center, Los Angeles, US",
+      "2023  Art Busan, BEXCO, Busan, KR",
+      "2022  Daegu Art Fair, EXCO, Daegu, KR",
+      "2022  Art Busan, BEXCO, Busan, KR",
+      "2022  BAMA, BEXCO, Busan, KR",
+      "2022  Kiaf, COEX, Seoul, KR",
+      "2020  Kiaf, COEX, Seoul, KR",
+      "2018  Singapore Contemporary Art Show, Singapore"
+     ]
+    }
+   ]
+  },
+  {
+   "slug": "lee-anon",
+   "name": "Lee Anon",
+   "nameCn": "李安穩",
+   "born": "2001",
+   "country": "Korea",
+   "instagram": "lee.an.on",
+   "works": [
+    "lee-anon-1",
+    "lee-anon-2"
+   ],
+   "intro": "Lee Anon visualizes fictitious stages where “albino” animals, those who are short of melanin pigments, live in the midst of tranquil and mysterious forest. Being white, albinos are vulnerable to predators as they are easily exposed. Despite this, they live along harmoniously taking care of each other. This is an expression of solidarity and declaration to step forward with all the albinos in the world who acknowledged their existence as well as uncertainties and finiteness of earthly lives. The matiere, layered intensively, is a metaphor to the artist’s wish to embrace all fragile lives and to protect the warmth of our world. Lee Anon is rapidly gaining critical acclaim for idiosyncratic style of portraying mysterious forests where albino animals inhabit.",
+   "portrait": {
+    "src": "img/lee-anon-portrait.jpg",
+    "w": 250,
+    "h": 375
+   },
+   "cv": [
+    {
+     "heading": "Education",
+     "lines": [
+      "2024  BFA Painting, Kookmin University, Seoul, KR"
+     ]
+    },
+    {
+     "heading": "Solo Exhibitions",
+     "lines": [
+      "2025  The Cave, Gana Forum Space, Seoul, KR",
+      "2024  Beyond the Silence, PBG Hannam, Seoul, KR",
+      "2024  Tree of Life, Tree House, Seoul, KR",
+      "2023  When you call its name without sound, Polestar Art Gallery, Seoul, KR"
+     ]
+    },
+    {
+     "heading": "Group Exhibitions",
+     "lines": [
+      "2026  Remembered Moments, SOKA ART, Taipei, TW",
+      "2026  The Founding Constellation, PBG Dosan, Seoul, KR",
+      "2025  THE WHISPERING DARK, FFF, Seoul, KR",
+      "2024  LOVE MEETS HOPE, PBG, Seoul, KR",
+      "2024  Circle of Life, Combine Works, Seoul, KR",
+      "2024  New Works, PBG, Seoul, KR",
+      "2024  Under 200, Art Sohyang, Busan, KR",
+      "2023  We are All from Different Universes, arte K, Seoul, KR",
+      "2023  PLO_logue, PBG Pangyo, Seongnam, KR",
+      "2023  Coexistence, Art Buddy Gangnam, Seoul, KR",
+      "2023  The Ideal Algorithm for You, Kookmin Art Gallery, Seoul, KR",
+      "2023  Serendipity, Conner Gallery, Seoul, KR",
+      "2023  ASYAAF, Hongik Museum of Art, Seoul, KR"
+     ]
+    },
+    {
+     "heading": "Art Fairs",
+     "lines": [
+      "2026  Art Taipei, Taipei World Trade Center, Taipei, TW",
+      "2025  Art Taipei, Taipei World Trade Center, Taipei, TW",
+      "2025  Kiaf SEOUL, COEX, Seoul, KR",
+      "2024  Kiaf SEOUL, COEX, Seoul, KR",
+      "2024  Art Busan, BEXCO, Busan, KR",
+      "2023  DIAF, EXCO, Daegu, KR"
+     ]
+    }
+   ]
+  },
+  {
+   "slug": "im-hari",
+   "name": "Im Hari",
+   "nameCn": "任hari",
+   "born": "1994",
+   "country": "Korea",
+   "instagram": "harings__",
+   "works": [
+    "im-hari-1",
+    "im-hari-2"
+   ],
+   "intro": "Im Hari (b. 1994) channels the private emotions of pregnancy, childbirth, and early motherhood into paintings built around 'Furry Bread,' an imaginary creature of her own invention. More interested in the moment of becoming than in any finished form, she lets airbrushed atmosphere and brushed texture trade places, deliberately leaving the creature's outline soft and unresolved. Pink-purple and turquoise sit against pastel and deep shadow, while stars, petals, and drops of water drift through the scene, turning the canvas into a psychological space where feeling floats free. Her steady affirmation of imperfection and change offers a quiet, comforting presence.",
+   "portrait": {
+    "src": "img/im-hari-portrait.jpg",
+    "w": 777,
+    "h": 1000
+   },
+   "cv": [
+    {
+     "heading": "Education",
+     "lines": [
+      "2018  BFA in Painting, Sejong University, Seoul, KR"
+     ]
+    },
+    {
+     "heading": "Solo Exhibitions",
+     "lines": [
+      "2025  A Person with a Living Bird in Their Heart, Shalom Shalom, Taipei, TW",
+      "2024  Index on My Arm, The Necessaries, Seoul, KR",
+      "2023  Soft Sync, Gallery Ichon, Seoul, KR",
+      "2023  Today, as Ever, The Necessaries, Seoul, KR",
+      "2020  Colored Senses, Gallery Dos, Seoul, KR"
+     ]
+    },
+    {
+     "heading": "Awards & Residencies",
+     "lines": [
+      "2024  The Shift 9th, Gallery Bakyoung, KR",
+      "2021  Artist Canvas Online Residency, KR",
+      "2018  Han-Sung University Campus Town Artists Residency, KR",
+      "2018  Seoul Foundation for Arts and Culture First Arts Support, KR"
+     ]
+    },
+    {
+     "heading": "Collections",
+     "lines": [
+      "Seoul Metropolitan Government Museum Department, KR",
+      "Bakyoung Scholarship and Cultural Foundation, KR"
+     ]
+    },
+    {
+     "heading": "Selected Group Exhibitions",
+     "lines": [
+      "2025  Housewarming Together, ICG Seoul, Seoul, KR",
+      "2025  Living Forms, Playlist, Busan, KR",
+      "2024  We Cross The Mountain Every Time, Gallery Bakyoung, Paju, KR",
+      "2024  My Dearest, PARK.Seoul, Seoul, KR",
+      "2023  Winter Show, Perigee Gallery, Seoul, KR",
+      "2023  Migration, The Necessaries, Seoul, KR",
+      "2022  Humor in Wonderland, Gallery TYA, Seoul, KR",
+      "2021  Side by Side Art Festival, Starfield Goyang, Goyang, KR",
+      "2021  The Evidence of the Art, Art Space Isaek, Seoul, KR",
+      "2020  Cutting Edges 12 New Printmakers, Space 9, Seoul, KR"
+     ]
+    },
+    {
+     "heading": "Art Fairs",
+     "lines": [
+      "2026  Art Taipei, Taipei World Trade Center, Taipei, TW",
+      "2025  Galleries Art Fair, Seoul, KR",
+      "2025  Kiaf SEOUL, Seoul, KR",
+      "2025  Art Busan, Busan, KR",
+      "2024  Galleries Art Fair, Seoul, KR",
+      "2024  Kiaf SEOUL, Seoul, KR"
+     ]
+    }
+   ]
+  },
+  {
+   "slug": "lee-yelin",
+   "name": "Lee Yelin",
+   "nameCn": "李藝璘",
+   "born": "1989",
+   "country": "Korea",
+   "instagram": "leeyellin",
+   "works": [
+    "lee-yelin-1"
+   ],
+   "intro": "Yelin Lee paints expressionless girls drawn from the visual memory of childhood comics and anime, fixing the fleeting spontaneity of a digital sketch into the lasting materiality of layered acrylic. Rather than depicting a specific person, she builds an anonymous figure who is at once herself and not herself; the girl's frontal gaze meets the viewer's own, holding purity and unease, fracture and resilience together, until the image comes to stand for anyone who has occupied a vulnerable place.",
+   "portrait": {
+    "src": "img/lee-yelin-portrait.jpg",
+    "w": 1000,
+    "h": 686
+   },
+   "cv": [
+    {
+     "heading": "Solo Exhibitions",
+     "lines": [
+      "2026  Not Quite You, Not Quite Me, NPAG, Seoul, KR",
+      "2025  Enchantia, PBG, Seoul, KR",
+      "2024  Whisper in Blue, MUSEUMWAVE, Seoul, KR",
+      "2023  Moment, Mansion9, Seoul, KR",
+      "2022  Calm at Sea, Mansion9, Seoul, KR",
+      "2021  Beyond the Gaze, Mansion9, Seoul, KR",
+      "2019  Me, Art Space DAP, Daegu, KR"
+     ]
+    },
+    {
+     "heading": "Awards",
+     "lines": [
+      "2021  RAIZART NFTMANIA Competition, Grand Prize, Seoul, KR"
+     ]
+    },
+    {
+     "heading": "Selected Projects",
+     "lines": [
+      "2026  SAGAKART Magazine June Issue Cover & Interview, Daegu, KR",
+      "2025  Collect the Year, Prain Villa, Seoul, KR",
+      "2025  Joonil Jung Album Cover, Seoul, KR",
+      "2024  Changmu 30th Anniversary Artist Collaboration, Arko Arts Theater, Seoul, KR",
+      "2022  Hyundai Livart, The Meeting of Furniture and Art, Seoul, KR",
+      "2021  Shinsegae Special Edition, Seoul, KR"
+     ]
+    },
+    {
+     "heading": "Group Exhibitions",
+     "lines": [
+      "2026  Soft Trace, Jeonju, KR",
+      "2025  Fruits Born of Gathered Hearts, Insa Art Center, Seoul, KR",
+      "2025  Eyes of November, PBG, Seoul, KR",
+      "2025  Flipped Fantasia, ERD Gallery, Seoul, KR",
+      "2024  Mimicry Collective, Space Thunder, Seoul, KR",
+      "2024  Perfect Persona, Mansion9, Seoul, KR",
+      "2023  Keep Moving, Mansion9, Seoul, KR",
+      "2023  Pop in Flow, E Land Gallery Heyri, Paju, KR",
+      "2022  The Beginning, PBG, Seoul, KR"
+     ]
+    },
+    {
+     "heading": "Art Fairs",
+     "lines": [
+      "2026  Art Taipei, Taipei World Trade Center, Taipei, TW",
+      "2026  Kiaf SEOUL, COEX, Seoul, KR",
+      "2025  Study PLAS Asia Art Fair, Osaka, JP",
+      "2025  Art Busan, BEXCO, Busan, KR",
+      "2023  UiAF Ulsan International Art Fair, Ulsan, KR",
+      "2022  BAMA, BEXCO, Busan, KR",
+      "2022  Daegu Art Fair, EXCO, Daegu, KR"
+     ]
+    }
+   ]
+  },
+  {
+   "slug": "yuya-hashizume",
+   "name": "Yuya Hashizume",
+   "nameCn": "橋爪 悠也",
+   "born": "1983",
+   "country": "Japan",
+   "instagram": "yuyahashizume",
+   "works": [
+    "yuya-hashizume-1",
+    "yuya-hashizume-2",
+    "yuya-hashizume-3"
+   ],
+   "intro": "Yuya Hashizume rose to fame for his Eyewater series, a collection of paintings in which a person is depicted against a monochrome background using the technique of Japanese manga and with a single tear falling from one eye, and is gaining attention in Japan as well as throughout Asia and Europe. Having been interested in drawing and making things with his hands since childhood, Hashizume worked for several years at an outdoor clothing brand after graduating from university, during which time he learned the basics of branding and product design. After several more career experiences, including designing advertisements and other promotional materials, Hashizume eventually developed a signature style that culminated in his first solo exhibition, \"eyewater,\" in 2017 at Tokyo's Classic Bowl, which was warmly received by the global art community. Hashizume's creations are inverse depictions of modern social phenomena that the artist is interested in, such as loss of originality or the tendency for unique things to be quickly shared among many. His artistic world is made up of paintings of people and animals that reflect the style of Fujiko F. Fujio, the writer and illustrator of Doraemon, a manga series that instilled in the young Hashizume the concepts of artificiality and anonymity.",
+   "portrait": {
+    "src": "img/yuya-hashizume-portrait.jpg",
+    "w": 749,
+    "h": 1000
+   },
+   "cv": [
+    {
+     "heading": "Selected Solo Exhibitions",
+     "lines": [
+      "2025  ew+82, PBG The Hyundai, Seoul, KR",
+      "2025  UNIVERSAL, Ippatsu, Okayama, JP",
+      "2024  Today, SOKA Art Tainan, Tainan, TW",
+      "2024  What a Wonderful World, PBG, Seoul, KR",
+      "2024  Listen to the Song of Colors, Kyoto Tsutaya Bookstore, Kyoto, JP",
+      "2024  Macau Eyewater, Artelli The Showroom, Macau",
+      "2023  EVERY DAY IS A GOOD DAY, IPPATSU, Okayama, JP",
+      "2023  to my dearest friends, Yutaka Kikutake Gallery, Tokyo, JP",
+      "2023  eyewater common kingfisher, PBG The Hyundai, Seoul, KR",
+      "2023  eyewater common jade, Gana Forum Space, Seoul, KR",
+      "2022  eyewater 2022, Spiral Garden, Tokyo, JP",
+      "2021  eyewater Shanghai, XU Gallery, Shanghai, CN",
+      "2021  GRAVITY POINT, Yutaka Kikutake Gallery, Tokyo, JP",
+      "2020  eyewater London -Monochrome-, The Waluso Gallery, London, UK",
+      "2017  eyewater, Classic Bowl, Tokyo, JP"
+     ]
+    }
+   ]
+  }
+ ],
+ "works": [
+  {
+   "id": "jae-yong-kim-1",
+   "artist": "jae-yong-kim",
+   "title": "Donut Madness",
+   "year": "2023-2026",
+   "medium": "Ceramics, F.R.P., Urethane Paint, Acrylic Paint, Chrome Plating, Resin, Crystals",
+   "dimensions": "H 32 x W 34.8 x D 13 cm each (set of 16)",
+   "frame": "",
+   "usd": "192,000",
+   "twd": "6,144,000",
+   "usdValue": 192000,
+   "image": {
+    "src": "img/jae-yong-kim-1.jpg",
+    "w": 1350,
+    "h": 1800,
+    "thumb": "img/jae-yong-kim-1_t.jpg"
+   },
+   "extras": [
+    {
+     "src": "img/jae-yong-kim-1-d1.jpg",
+     "w": 1350,
+     "h": 1800
+    }
+   ],
+   "slide": 3
+  },
+  {
+   "id": "jae-yong-kim-2",
+   "artist": "jae-yong-kim",
+   "title": "Donut Madness",
+   "year": "2017-2026",
+   "medium": "Ceramics, Underglaze, Glaze, Luster Glaze, Chrome Plating, Crystals",
+   "dimensions": "10 x 10 x 4.5 cm each (set of 36)",
+   "frame": "",
+   "usd": "66,750",
+   "twd": "2,136,000",
+   "usdValue": 66750,
+   "image": {
+    "src": "img/jae-yong-kim-2.jpg",
+    "w": 1350,
+    "h": 1800,
+    "thumb": "img/jae-yong-kim-2_t.jpg"
+   },
+   "extras": [
+    {
+     "src": "img/jae-yong-kim-2-d1.jpg",
+     "w": 1350,
+     "h": 1800
+    }
+   ],
+   "slide": 5
+  },
+  {
+   "id": "moon-hyeongtae-1",
+   "artist": "moon-hyeongtae",
+   "title": "Four-Leaf Clover",
+   "year": "2025-2026",
+   "medium": "Mixed media",
+   "dimensions": "72.7 x 91.0 cm",
+   "frame": "",
+   "usd": "20,000",
+   "twd": "640,000",
+   "usdValue": 20000,
+   "image": {
+    "src": "img/moon-hyeongtae-1.jpg",
+    "w": 1448,
+    "h": 1800,
+    "thumb": "img/moon-hyeongtae-1_t.jpg"
+   },
+   "extras": [],
+   "slide": 7
+  },
+  {
+   "id": "moon-hyeongtae-2",
+   "artist": "moon-hyeongtae",
+   "title": "Builder",
+   "year": "2026",
+   "medium": "Oil on canvas",
+   "dimensions": "116.8 x 91.0 cm",
+   "frame": "",
+   "usd": "30,000",
+   "twd": "960,000",
+   "usdValue": 30000,
+   "image": {
+    "src": "img/moon-hyeongtae-2.jpg",
+    "w": 1352,
+    "h": 1800,
+    "thumb": "img/moon-hyeongtae-2_t.jpg"
+   },
+   "extras": [
+    {
+     "src": "img/moon-hyeongtae-2-d1.jpg",
+     "w": 1352,
+     "h": 1800
+    }
+   ],
+   "slide": 8
+  },
+  {
+   "id": "moon-hyeongtae-3",
+   "artist": "moon-hyeongtae",
+   "title": "Merry-go-round",
+   "year": "2026",
+   "medium": "Oil on canvas",
+   "dimensions": "162.2 x 130.3 cm",
+   "frame": "",
+   "usd": "45,000",
+   "twd": "1,440,000",
+   "usdValue": 45000,
+   "image": {
+    "src": "img/moon-hyeongtae-3.jpg",
+    "w": 1446,
+    "h": 1800,
+    "thumb": "img/moon-hyeongtae-3_t.jpg"
+   },
+   "extras": [
+    {
+     "src": "img/moon-hyeongtae-3-d1.jpg",
+     "w": 1446,
+     "h": 1800
+    }
+   ],
+   "slide": 10
+  },
+  {
+   "id": "yi-yi-jeong-eun-1",
+   "artist": "yi-yi-jeong-eun",
+   "title": "There, Autumn_202625",
+   "year": "2026",
+   "medium": "Oil on canvas",
+   "dimensions": "65.1 x 53.0 cm",
+   "frame": "73 x 61 x 9.5(h) cm",
+   "usd": "4,300",
+   "twd": "137,600",
+   "usdValue": 4300,
+   "image": {
+    "src": "img/yi-yi-jeong-eun-1.jpg",
+    "w": 784,
+    "h": 968,
+    "thumb": "img/yi-yi-jeong-eun-1_t.jpg"
+   },
+   "extras": [],
+   "slide": 12
+  },
+  {
+   "id": "yi-yi-jeong-eun-2",
+   "artist": "yi-yi-jeong-eun",
+   "title": "There, Midday Rainbow_202623",
+   "year": "2026",
+   "medium": "Oil on canvas",
+   "dimensions": "65.1 x 53.0 cm",
+   "frame": "73 x 61 x 9.5(h) cm",
+   "usd": "4,300",
+   "twd": "137,600",
+   "usdValue": 4300,
+   "image": {
+    "src": "img/yi-yi-jeong-eun-2.jpg",
+    "w": 1475,
+    "h": 1800,
+    "thumb": "img/yi-yi-jeong-eun-2_t.jpg"
+   },
+   "extras": [
+    {
+     "src": "img/yi-yi-jeong-eun-2-d1.jpg",
+     "w": 1475,
+     "h": 1800
+    }
+   ],
+   "slide": 13
+  },
+  {
+   "id": "yi-yi-jeong-eun-3",
+   "artist": "yi-yi-jeong-eun",
+   "title": "There, Rainbow in the Sunset_202624",
+   "year": "2026",
+   "medium": "Oil on canvas",
+   "dimensions": "65.1 x 53.0 cm",
+   "frame": "73 x 61 x 9.5(h) cm",
+   "usd": "4,300",
+   "twd": "137,600",
+   "usdValue": 4300,
+   "image": {
+    "src": "img/yi-yi-jeong-eun-3.jpg",
+    "w": 792,
+    "h": 968,
+    "thumb": "img/yi-yi-jeong-eun-3_t.jpg"
+   },
+   "extras": [
+    {
+     "src": "img/yi-yi-jeong-eun-3-d1.jpg",
+     "w": 1192,
+     "h": 1460
+    }
+   ],
+   "slide": 15
+  },
+  {
+   "id": "jin-young-1",
+   "artist": "jin-young",
+   "title": "Sunlit Island",
+   "year": "2026",
+   "medium": "Acrylic on canvas",
+   "dimensions": "72.7 x 90.9 cm",
+   "frame": "",
+   "usd": "7,200",
+   "twd": "230,400",
+   "usdValue": 7200,
+   "image": {
+    "src": "img/jin-young-1.jpg",
+    "w": 1800,
+    "h": 1444,
+    "thumb": "img/jin-young-1_t.jpg"
+   },
+   "extras": [],
+   "slide": 17
+  },
+  {
+   "id": "jin-young-2",
+   "artist": "jin-young",
+   "title": "Sunlit Notes",
+   "year": "2026",
+   "medium": "Acrylic on canvas",
+   "dimensions": "50.0 x 60.6 cm",
+   "frame": "",
+   "usd": "3,500",
+   "twd": "112,000",
+   "usdValue": 3500,
+   "image": {
+    "src": "img/jin-young-2.jpg",
+    "w": 1800,
+    "h": 1501,
+    "thumb": "img/jin-young-2_t.jpg"
+   },
+   "extras": [],
+   "slide": 18
+  },
+  {
+   "id": "jin-young-3",
+   "artist": "jin-young",
+   "title": "Midday Garden 01",
+   "year": "2026",
+   "medium": "Acrylic on canvas",
+   "dimensions": "45.5 x 45.5 cm",
+   "frame": "",
+   "usd": "3,000",
+   "twd": "96,000",
+   "usdValue": 3000,
+   "image": {
+    "src": "img/jin-young-3.jpg",
+    "w": 1794,
+    "h": 1800,
+    "thumb": "img/jin-young-3_t.jpg"
+   },
+   "extras": [],
+   "slide": 19
+  },
+  {
+   "id": "jin-young-4",
+   "artist": "jin-young",
+   "title": "Midday Garden 02",
+   "year": "2026",
+   "medium": "Acrylic on canvas",
+   "dimensions": "45.5 x 45.5 cm",
+   "frame": "",
+   "usd": "3,000",
+   "twd": "96,000",
+   "usdValue": 3000,
+   "image": {
+    "src": "img/jin-young-4.jpg",
+    "w": 910,
+    "h": 912,
+    "thumb": "img/jin-young-4_t.jpg"
+   },
+   "extras": [],
+   "slide": 20
+  },
+  {
+   "id": "choi-hyeji-1",
+   "artist": "choi-hyeji",
+   "title": "LIFE Draždiak, Bratislava",
+   "year": "2026",
+   "medium": "Cement, acrylic on custom panel canvas",
+   "dimensions": "116.8 x 160.6 cm (diptych)",
+   "frame": "",
+   "usd": "20,000",
+   "twd": "640,000",
+   "usdValue": 20000,
+   "image": {
+    "src": "img/choi-hyeji-1.jpg",
+    "w": 1800,
+    "h": 1300,
+    "thumb": "img/choi-hyeji-1_t.jpg"
+   },
+   "extras": [
+    {
+     "src": "img/choi-hyeji-1-d1.jpg",
+     "w": 1246,
+     "h": 1800
+    },
+    {
+     "src": "img/choi-hyeji-1-d2.jpg",
+     "w": 1246,
+     "h": 1800
+    }
+   ],
+   "slide": 21
+  },
+  {
+   "id": "chungshin-1",
+   "artist": "chungshin",
+   "title": "Corolla: Black Neon (2649)",
+   "year": "2026",
+   "medium": "Charcoal and conte, acrylics on linen",
+   "dimensions": "72.7 x 50.0 cm",
+   "frame": "",
+   "usd": "5,000",
+   "twd": "160,000",
+   "usdValue": 5000,
+   "image": {
+    "src": "img/chungshin-1.jpg",
+    "w": 390,
+    "h": 524,
+    "thumb": "img/chungshin-1_t.jpg"
+   },
+   "extras": [],
+   "slide": 24
+  },
+  {
+   "id": "chungshin-2",
+   "artist": "chungshin",
+   "title": "Corolla: Black Neon (2650)",
+   "year": "2026",
+   "medium": "Charcoal and conte, acrylics on linen",
+   "dimensions": "72.7 x 50.0 cm",
+   "frame": "",
+   "usd": "5,000",
+   "twd": "160,000",
+   "usdValue": 5000,
+   "image": {
+    "src": "img/chungshin-2.jpg",
+    "w": 714,
+    "h": 968,
+    "thumb": "img/chungshin-2_t.jpg"
+   },
+   "extras": [],
+   "slide": 25
+  },
+  {
+   "id": "chungshin-3",
+   "artist": "chungshin",
+   "title": "Corolla: Black Neon (2652)",
+   "year": "2026",
+   "medium": "Charcoal and conte, acrylics on linen",
+   "dimensions": "60.6 x 60.6 cm",
+   "frame": "",
+   "usd": "5,000",
+   "twd": "160,000",
+   "usdValue": 5000,
+   "image": {
+    "src": "img/chungshin-3.jpg",
+    "w": 388,
+    "h": 385,
+    "thumb": "img/chungshin-3_t.jpg"
+   },
+   "extras": [],
+   "slide": 26
+  },
+  {
+   "id": "chungshin-4",
+   "artist": "chungshin",
+   "title": "Corolla: Black Neon (2653)",
+   "year": "2026",
+   "medium": "Charcoal and conte, acrylics on linen",
+   "dimensions": "50.0 x 72.7 cm",
+   "frame": "",
+   "usd": "5,000",
+   "twd": "160,000",
+   "usdValue": 5000,
+   "image": {
+    "src": "img/chungshin-4.jpg",
+    "w": 491,
+    "h": 358,
+    "thumb": "img/chungshin-4_t.jpg"
+   },
+   "extras": [],
+   "slide": 27
+  },
+  {
+   "id": "lee-anon-1",
+   "artist": "lee-anon",
+   "title": "Even with Thorns",
+   "year": "2026",
+   "medium": "Acrylic on canvas",
+   "dimensions": "72.7 x 90.9 cm",
+   "frame": "",
+   "usd": "4,000",
+   "twd": "128,000",
+   "usdValue": 4000,
+   "image": {
+    "src": "img/lee-anon-1.jpg",
+    "w": 1800,
+    "h": 1435,
+    "thumb": "img/lee-anon-1_t.jpg"
+   },
+   "extras": [],
+   "slide": 28
+  },
+  {
+   "id": "lee-anon-2",
+   "artist": "lee-anon",
+   "title": "Two Forces",
+   "year": "2026",
+   "medium": "Acrylic on canvas",
+   "dimensions": "116.8 x 72.7 cm",
+   "frame": "",
+   "usd": "6,000",
+   "twd": "192,000",
+   "usdValue": 6000,
+   "image": {
+    "src": "img/lee-anon-2.jpg",
+    "w": 1137,
+    "h": 1800,
+    "thumb": "img/lee-anon-2_t.jpg"
+   },
+   "extras": [
+    {
+     "src": "img/lee-anon-2-d1.jpg",
+     "w": 1137,
+     "h": 1800
+    }
+   ],
+   "slide": 29
+  },
+  {
+   "id": "im-hari-1",
+   "artist": "im-hari",
+   "title": "Glory",
+   "year": "2026",
+   "medium": "Acrylic on canvas",
+   "dimensions": "72 x 60 cm",
+   "frame": "",
+   "usd": "1,500",
+   "twd": "48,000",
+   "usdValue": 1500,
+   "image": {
+    "src": "img/im-hari-1.jpg",
+    "w": 750,
+    "h": 903,
+    "thumb": "img/im-hari-1_t.jpg"
+   },
+   "extras": [],
+   "slide": 31
+  },
+  {
+   "id": "im-hari-2",
+   "artist": "im-hari",
+   "title": "You'll dream a good dream",
+   "year": "2026",
+   "medium": "Acrylic on canvas",
+   "dimensions": "60 x 72 cm",
+   "frame": "",
+   "usd": "1,500",
+   "twd": "48,000",
+   "usdValue": 1500,
+   "image": {
+    "src": "img/im-hari-2.jpg",
+    "w": 1000,
+    "h": 834,
+    "thumb": "img/im-hari-2_t.jpg"
+   },
+   "extras": [],
+   "slide": 32
+  },
+  {
+   "id": "lee-yelin-1",
+   "artist": "lee-yelin",
+   "title": "Gyeol",
+   "year": "2026",
+   "medium": "Acrylic on canvas",
+   "dimensions": "45.5 x 53.0 cm",
+   "frame": "",
+   "usd": "1,200",
+   "twd": "38,400",
+   "usdValue": 1200,
+   "image": {
+    "src": "img/lee-yelin-1.jpg",
+    "w": 1800,
+    "h": 1546,
+    "thumb": "img/lee-yelin-1_t.jpg"
+   },
+   "extras": [],
+   "slide": 33
+  },
+  {
+   "id": "yuya-hashizume-1",
+   "artist": "yuya-hashizume",
+   "title": "eyewater animal ver. Amurtiger",
+   "year": "2025",
+   "medium": "Acrylic on canvas",
+   "dimensions": "72.7 x 60.6 cm",
+   "frame": "",
+   "usd": "15,000",
+   "twd": "480,000",
+   "usdValue": 15000,
+   "image": {
+    "src": "img/yuya-hashizume-1.jpg",
+    "w": 1499,
+    "h": 1800,
+    "thumb": "img/yuya-hashizume-1_t.jpg"
+   },
+   "extras": [],
+   "slide": 34
+  },
+  {
+   "id": "yuya-hashizume-2",
+   "artist": "yuya-hashizume",
+   "title": "eyewater animal ver. Miniature Horse",
+   "year": "2025",
+   "medium": "Acrylic on canvas",
+   "dimensions": "72.7 x 60.6 cm",
+   "frame": "",
+   "usd": "15,000",
+   "twd": "480,000",
+   "usdValue": 15000,
+   "image": {
+    "src": "img/yuya-hashizume-2.jpg",
+    "w": 808,
+    "h": 968,
+    "thumb": "img/yuya-hashizume-2_t.jpg"
+   },
+   "extras": [],
+   "slide": 35
+  },
+  {
+   "id": "yuya-hashizume-3",
+   "artist": "yuya-hashizume",
+   "title": "eyewater animal ver. Shiba-dog",
+   "year": "2025",
+   "medium": "Acrylic on canvas",
+   "dimensions": "72.7 x 60.6 cm",
+   "frame": "",
+   "usd": "15,000",
+   "twd": "480,000",
+   "usdValue": 15000,
+   "image": {
+    "src": "img/yuya-hashizume-3.jpg",
+    "w": 806,
+    "h": 968,
+    "thumb": "img/yuya-hashizume-3_t.jpg"
+   },
+   "extras": [],
+   "slide": 36
+  }
+ ]
+}
