@@ -863,13 +863,7 @@
     "h": 1800,
     "thumb": "img/moon-hyeongtae-2_t.jpg"
    },
-   "extras": [
-    {
-     "src": "img/moon-hyeongtae-2-d1.jpg",
-     "w": 1352,
-     "h": 1800
-    }
-   ],
+   "extras": [],
    "slide": 8
   },
   {
@@ -889,13 +883,7 @@
     "h": 1800,
     "thumb": "img/moon-hyeongtae-3_t.jpg"
    },
-   "extras": [
-    {
-     "src": "img/moon-hyeongtae-3-d1.jpg",
-     "w": 1446,
-     "h": 1800
-    }
-   ],
+   "extras": [],
    "slide": 10
   },
   {
@@ -935,13 +923,7 @@
     "h": 1800,
     "thumb": "img/yi-yi-jeong-eun-2_t.jpg"
    },
-   "extras": [
-    {
-     "src": "img/yi-yi-jeong-eun-2-d1.jpg",
-     "w": 1475,
-     "h": 1800
-    }
-   ],
+   "extras": [],
    "slide": 13
   },
   {
@@ -961,13 +943,7 @@
     "h": 968,
     "thumb": "img/yi-yi-jeong-eun-3_t.jpg"
    },
-   "extras": [
-    {
-     "src": "img/yi-yi-jeong-eun-3-d1.jpg",
-     "w": 1192,
-     "h": 1460
-    }
-   ],
+   "extras": [],
    "slide": 15
   },
   {
@@ -1198,13 +1174,7 @@
     "h": 1800,
     "thumb": "img/lee-anon-2_t.jpg"
    },
-   "extras": [
-    {
-     "src": "img/lee-anon-2-d1.jpg",
-     "w": 1137,
-     "h": 1800
-    }
-   ],
+   "extras": [],
    "slide": 29
   },
   {
