@@ -31,7 +31,7 @@
       <div class="ph"><img src="${w.image.thumb}" alt="${esc(w.title)}" loading="lazy"></div>
       <div class="meta"><div class="a">${esc(a.name)}</div>
         <div class="t">${esc(w.title)}${w.year ? `, <span style="font-style:normal">${esc(w.year)}</span>` : ''}</div>
-        <div class="p">USD ${esc(w.usd)}<small>TWD ${esc(w.twd)}</small></div></div></a>`;
+        <div class="p">USD ${esc(w.usd)}<small>TWD ${esc(w.twd)}</small>${w.priceNote ? `<small class="note">${esc(w.priceNote)}</small>` : ''}</div></div></a>`;
   }
 
   function viewWorks() {
@@ -122,7 +122,7 @@
           <div class="bl">${esc(bline(a))}${a.instagram ? ' · ' + ig(a) : ''}</div>
           <h2>${esc(w.title)}</h2>
           <dl>${rows}</dl>
-          <div class="price"><div class="usd">USD ${esc(w.usd)}</div><div class="twd">TWD ${esc(w.twd)}</div></div>
+          <div class="price"><div class="usd">USD ${esc(w.usd)}</div><div class="twd">TWD ${esc(w.twd)}</div>${w.priceNote ? `<div class="note">${esc(w.priceNote)}</div>` : ''}</div>
           <div class="actions">
             <a class="btn" href="mailto:${INQUIRY}?subject=${subject}&body=${body}">Inquire about this work</a>
             <a class="btn wa" href="${WHATSAPP}?text=${waText}" target="_blank" rel="noopener">Inquire on WhatsApp</a>

@@ -795,6 +795,7 @@
    "usd": "192,000",
    "twd": "6,144,000",
    "usdValue": 192000,
+   "priceNote": "Individual price: USD 12,000",
    "image": {
     "src": "img/jae-yong-kim-1.jpg",
     "w": 1350,
@@ -821,6 +822,7 @@
    "usd": "66,750",
    "twd": "2,136,000",
    "usdValue": 66750,
+   "priceNote": "Individual price: USD 1,150 – 2,800",
    "image": {
     "src": "img/jae-yong-kim-2.jpg",
     "w": 1350,
