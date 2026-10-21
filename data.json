@@ -861,7 +861,8 @@
    },
    "extras": [],
    "slide": 7,
-   "status": "available"
+   "status": "available",
+   "priceOnRequest": true
   },
   {
    "id": "moon-hyeongtae-2",
@@ -882,7 +883,8 @@
    },
    "extras": [],
    "slide": 8,
-   "status": "available"
+   "status": "available",
+   "priceOnRequest": true
   },
   {
    "id": "moon-hyeongtae-3",
@@ -903,7 +905,8 @@
    },
    "extras": [],
    "slide": 10,
-   "status": "available"
+   "status": "available",
+   "priceOnRequest": true
   },
   {
    "id": "yi-yi-jeong-eun-1",

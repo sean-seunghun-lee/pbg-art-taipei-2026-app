@@ -13,6 +13,9 @@
   // availability per work: set "status" in data.json to "available" or "sold"
   // sold works keep their price in data.json but never show it (cards, detail, inquiry text, price filter/sort)
   const sold = w => w.status === 'sold';
+  // "priceOnRequest": true in data.json shows "Price upon request" instead of the price
+  const hidePrice = w => sold(w) || w.priceOnRequest;
+  const por = (w, cls) => !sold(w) && w.priceOnRequest ? `<div class="${cls} por">Price upon request</div>` : '';
   const avail = w => sold(w) ? '<span class="av sold">Sold</span>' : '<span class="av">Available</span>';
   const ig = a =>a.instagram ? `<a href="https://www.instagram.com/${esc(a.instagram)}/" target="_blank" rel="noopener">@${esc(a.instagram)}</a>` : '';
 
@@ -37,13 +40,13 @@
       <div class="meta"><div class="a">${esc(a.name)}</div>
         <div class="t">${esc(w.title)}${w.year ? `, <span style="font-style:normal">${esc(w.year)}</span>` : ''}</div>
         ${avail(w)}
-        ${sold(w) ? '' : `<div class="p">USD ${esc(w.usd)}<small>TWD ${esc(w.twd)}</small>${w.priceNote ? `<small class="note">${esc(w.priceNote)}</small>` : ''}</div>`}</div></a>`;
+        ${hidePrice(w) ? por(w, 'p') : `<div class="p">USD ${esc(w.usd)}<small>TWD ${esc(w.twd)}</small>${w.priceNote ? `<small class="note">${esc(w.priceNote)}</small>` : ''}</div>`}</div></a>`;
   }
 
   function viewWorks() {
-    let list = data.works.filter(w => (state.artist === 'all' || w.artist === state.artist) && (state.price === 'all' || (!sold(w) && PRICE[state.price][1](w.usdValue))));
-    if (state.sort === 'low') list = [...list].sort((a, b) => sold(a) - sold(b) || a.usdValue - b.usdValue);
-    if (state.sort === 'high') list = [...list].sort((a, b) => sold(a) - sold(b) || b.usdValue - a.usdValue);
+    let list = data.works.filter(w => (state.artist === 'all' || w.artist === state.artist) && (state.price === 'all' || (!hidePrice(w) && PRICE[state.price][1](w.usdValue))));
+    if (state.sort === 'low') list = [...list].sort((a, b) => hidePrice(a) - hidePrice(b) || a.usdValue - b.usdValue);
+    if (state.sort === 'high') list = [...list].sort((a, b) => hidePrice(a) - hidePrice(b) || b.usdValue - a.usdValue);
     const chips = [`<button class="chip ${state.artist === 'all' ? 'on' : ''}" data-artist="all">All artists</button>`]
       .concat(data.artists.map(a => `<button class="chip ${state.artist === a.slug ? 'on' : ''}" data-artist="${a.slug}">${esc(a.name)}</button>`)).join('');
     app.innerHTML = `
@@ -114,8 +117,8 @@
     const prev = data.works[(i - 1 + data.works.length) % data.works.length];
     const next = data.works[(i + 1) % data.works.length];
     const subject = encodeURIComponent(`[ART TAIPEI 2026] Inquiry: ${a.name} – ${w.title}`);
-    const body = encodeURIComponent(`Hello PBG,\n\nI am interested in the following work:\n${a.name}, ${w.title}${w.year ? ', ' + w.year : ''}\n${w.medium}\n${w.dimensions}${sold(w) ? '' : `\nUSD ${w.usd}`}\n\nName:\nPhone:\n`);
-    const waText = encodeURIComponent(`Hello PBG, I am interested in ${a.name}, "${w.title}"${w.year ? " (" + w.year + ")" : ""}${sold(w) ? '' : ` – USD ${w.usd}`} (ART TAIPEI 2026, Booth ${data.fair.booth}).`);
+    const body = encodeURIComponent(`Hello PBG,\n\nI am interested in the following work:\n${a.name}, ${w.title}${w.year ? ', ' + w.year : ''}\n${w.medium}\n${w.dimensions}${hidePrice(w) ? '' : `\nUSD ${w.usd}`}\n\nName:\nPhone:\n`);
+    const waText = encodeURIComponent(`Hello PBG, I am interested in ${a.name}, "${w.title}"${w.year ? " (" + w.year + ")" : ""}${hidePrice(w) ? '' : ` – USD ${w.usd}`} (ART TAIPEI 2026, Booth ${data.fair.booth}).`);
     const rows = [['Year', w.year], ['Medium', w.medium], ['Size', w.dimensions], ['Frame', w.frame]]
       .filter(r => r[1]).map(r => `<dt>${r[0]}</dt><dd>${esc(r[1])}</dd>`).join('');
     app.innerHTML = `<a class="back" href="#/">← All works</a>
@@ -128,7 +131,7 @@
           <div class="bl">${esc(bline(a))}${a.instagram ? ' · ' + ig(a) : ''}</div>
           <h2>${esc(w.title)}</h2>
           <dl>${rows}</dl>
-          <div class="price">${avail(w)}${sold(w) ? '' : `<div class="usd">USD ${esc(w.usd)}</div><div class="twd">TWD ${esc(w.twd)}</div>${w.priceNote ? `<div class="note">${esc(w.priceNote)}</div>` : ''}`}</div>
+          <div class="price">${avail(w)}${hidePrice(w) ? por(w, 'usd') : `<div class="usd">USD ${esc(w.usd)}</div><div class="twd">TWD ${esc(w.twd)}</div>${w.priceNote ? `<div class="note">${esc(w.priceNote)}</div>` : ''}`}</div>
           <div class="actions">
             <a class="btn" href="mailto:${INQUIRY}?subject=${subject}&body=${body}">Inquire by mail</a>
             <a class="btn wa" href="${WHATSAPP}?text=${waText}" target="_blank" rel="noopener">Inquire on WhatsApp</a>
