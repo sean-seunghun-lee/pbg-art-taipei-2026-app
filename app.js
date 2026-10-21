@@ -128,7 +128,7 @@
           <dl>${rows}</dl>
           <div class="price">${avail(w)}<div class="usd">USD ${esc(w.usd)}</div><div class="twd">TWD ${esc(w.twd)}</div>${w.priceNote ? `<div class="note">${esc(w.priceNote)}</div>` : ''}</div>
           <div class="actions">
-            <a class="btn" href="mailto:${INQUIRY}?subject=${subject}&body=${body}">Inquire about this work</a>
+            <a class="btn" href="mailto:${INQUIRY}?subject=${subject}&body=${body}">Inquire by mail</a>
             <a class="btn wa" href="${WHATSAPP}?text=${waText}" target="_blank" rel="noopener">Inquire on WhatsApp</a>
             <a class="btn line" href="${LINE}" target="_blank" rel="noopener">Inquire on LINE</a>
             <a class="btn ghost" href="#/artist/${a.slug}">About the artist</a>
