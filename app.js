@@ -5,6 +5,7 @@
   const workBy = Object.fromEntries(data.works.map(w => [w.id, w]));
   const INQUIRY = 'shlee@printbakery.com';
   const WHATSAPP = 'https://wa.me/821050138072';
+  const LINE = 'https://line.me/ti/p/cjycU2BKMJ';
   const PDF = 'PBG_ART_TPE26_Factsheet.pdf';
 
   const esc = s => String(s ?? '').replace(/[&<>"']/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]));
@@ -126,6 +127,7 @@
           <div class="actions">
             <a class="btn" href="mailto:${INQUIRY}?subject=${subject}&body=${body}">Inquire about this work</a>
             <a class="btn wa" href="${WHATSAPP}?text=${waText}" target="_blank" rel="noopener">Inquire on WhatsApp</a>
+            <a class="btn line" href="${LINE}" target="_blank" rel="noopener">Inquire on LINE</a>
             <a class="btn ghost" href="#/artist/${a.slug}">About the artist</a>
           </div>
         </div>
@@ -144,7 +146,8 @@
         <p>${esc(data.fair.dates)} · ${esc(data.fair.venue)}</p>
         <div class="actions"><a class="btn" href="${PDF}" download>Download factsheet (PDF)</a>
           <a class="btn ghost" href="mailto:${INQUIRY}">Contact ${INQUIRY}</a>
-          <a class="btn wa" href="${WHATSAPP}?text=${encodeURIComponent(`Hello PBG, I have a question about your ART TAIPEI 2026 booth (${data.fair.booth}).`)}" target="_blank" rel="noopener">WhatsApp</a></div></div>
+          <a class="btn wa" href="${WHATSAPP}?text=${encodeURIComponent(`Hello PBG, I have a question about your ART TAIPEI 2026 booth (${data.fair.booth}).`)}" target="_blank" rel="noopener">WhatsApp</a>
+          <a class="btn line" href="${LINE}" target="_blank" rel="noopener">LINE</a></div></div>
       <div class="sec-h"><h2>Gallery Information</h2></div>
       <div class="locs">${data.gallery.map(g => `<div><h3>${esc(g.name)}</h3><p>${g.lines.map(l =>
         /@/.test(l) && !/\s/.test(l) ? `<a href="mailto:${esc(l)}">${esc(l)}</a>` : esc(l)).join('<br>')}</p></div>`).join('')}</div>`;
