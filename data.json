@@ -798,6 +798,7 @@
    "twd": "6,144,000",
    "usdValue": 192000,
    "priceNote": "Individual price: USD 12,000",
+   "status": "available",
    "image": {
     "src": "img/jae-yong-kim-1.jpg",
     "w": 1350,
@@ -825,6 +826,7 @@
    "twd": "2,136,000",
    "usdValue": 66750,
    "priceNote": "Individual price: USD 1,150 – 2,800",
+   "status": "available",
    "image": {
     "src": "img/jae-yong-kim-2.jpg",
     "w": 1350,
@@ -858,7 +860,8 @@
     "thumb": "img/moon-hyeongtae-1_t.jpg"
    },
    "extras": [],
-   "slide": 7
+   "slide": 7,
+   "status": "available"
   },
   {
    "id": "moon-hyeongtae-2",
@@ -878,7 +881,8 @@
     "thumb": "img/moon-hyeongtae-2_t.jpg"
    },
    "extras": [],
-   "slide": 8
+   "slide": 8,
+   "status": "available"
   },
   {
    "id": "moon-hyeongtae-3",
@@ -898,7 +902,8 @@
     "thumb": "img/moon-hyeongtae-3_t.jpg"
    },
    "extras": [],
-   "slide": 10
+   "slide": 10,
+   "status": "available"
   },
   {
    "id": "yi-yi-jeong-eun-1",
@@ -918,7 +923,8 @@
     "thumb": "img/yi-yi-jeong-eun-1_t.jpg"
    },
    "extras": [],
-   "slide": 12
+   "slide": 12,
+   "status": "available"
   },
   {
    "id": "yi-yi-jeong-eun-2",
@@ -938,7 +944,8 @@
     "thumb": "img/yi-yi-jeong-eun-2_t.jpg"
    },
    "extras": [],
-   "slide": 13
+   "slide": 13,
+   "status": "available"
   },
   {
    "id": "yi-yi-jeong-eun-3",
@@ -958,7 +965,8 @@
     "thumb": "img/yi-yi-jeong-eun-3_t.jpg"
    },
    "extras": [],
-   "slide": 15
+   "slide": 15,
+   "status": "available"
   },
   {
    "id": "jin-young-1",
@@ -978,7 +986,8 @@
     "thumb": "img/jin-young-1_t.jpg"
    },
    "extras": [],
-   "slide": 17
+   "slide": 17,
+   "status": "available"
   },
   {
    "id": "jin-young-2",
@@ -998,7 +1007,8 @@
     "thumb": "img/jin-young-2_t.jpg"
    },
    "extras": [],
-   "slide": 18
+   "slide": 18,
+   "status": "available"
   },
   {
    "id": "jin-young-3",
@@ -1018,7 +1028,8 @@
     "thumb": "img/jin-young-3_t.jpg"
    },
    "extras": [],
-   "slide": 19
+   "slide": 19,
+   "status": "available"
   },
   {
    "id": "jin-young-4",
@@ -1038,7 +1049,8 @@
     "thumb": "img/jin-young-4_t.jpg"
    },
    "extras": [],
-   "slide": 20
+   "slide": 20,
+   "status": "available"
   },
   {
    "id": "choi-hyeji-1",
@@ -1069,7 +1081,8 @@
      "h": 1800
     }
    ],
-   "slide": 21
+   "slide": 21,
+   "status": "available"
   },
   {
    "id": "chungshin-1",
@@ -1089,7 +1102,8 @@
     "thumb": "img/chungshin-1_t.jpg"
    },
    "extras": [],
-   "slide": 24
+   "slide": 24,
+   "status": "available"
   },
   {
    "id": "chungshin-2",
@@ -1109,7 +1123,8 @@
     "thumb": "img/chungshin-2_t.jpg"
    },
    "extras": [],
-   "slide": 25
+   "slide": 25,
+   "status": "available"
   },
   {
    "id": "chungshin-3",
@@ -1129,7 +1144,8 @@
     "thumb": "img/chungshin-3_t.jpg"
    },
    "extras": [],
-   "slide": 26
+   "slide": 26,
+   "status": "available"
   },
   {
    "id": "chungshin-4",
@@ -1149,7 +1165,8 @@
     "thumb": "img/chungshin-4_t.jpg"
    },
    "extras": [],
-   "slide": 27
+   "slide": 27,
+   "status": "available"
   },
   {
    "id": "lee-anon-1",
@@ -1169,7 +1186,8 @@
     "thumb": "img/lee-anon-1_t.jpg"
    },
    "extras": [],
-   "slide": 28
+   "slide": 28,
+   "status": "available"
   },
   {
    "id": "lee-anon-2",
@@ -1189,7 +1207,8 @@
     "thumb": "img/lee-anon-2_t.jpg"
    },
    "extras": [],
-   "slide": 29
+   "slide": 29,
+   "status": "available"
   },
   {
    "id": "im-hari-1",
@@ -1209,7 +1228,8 @@
     "thumb": "img/im-hari-1_t.jpg"
    },
    "extras": [],
-   "slide": 31
+   "slide": 31,
+   "status": "available"
   },
   {
    "id": "im-hari-2",
@@ -1229,7 +1249,8 @@
     "thumb": "img/im-hari-2_t.jpg"
    },
    "extras": [],
-   "slide": 32
+   "slide": 32,
+   "status": "available"
   },
   {
    "id": "lee-yelin-1",
@@ -1249,7 +1270,8 @@
     "thumb": "img/lee-yelin-1_t.jpg"
    },
    "extras": [],
-   "slide": 33
+   "slide": 33,
+   "status": "available"
   },
   {
    "id": "yuya-hashizume-1",
@@ -1269,7 +1291,8 @@
     "thumb": "img/yuya-hashizume-1_t.jpg"
    },
    "extras": [],
-   "slide": 34
+   "slide": 34,
+   "status": "available"
   },
   {
    "id": "yuya-hashizume-2",
@@ -1289,7 +1312,8 @@
     "thumb": "img/yuya-hashizume-2_t.jpg"
    },
    "extras": [],
-   "slide": 35
+   "slide": 35,
+   "status": "available"
   },
   {
    "id": "yuya-hashizume-3",
@@ -1309,7 +1333,8 @@
     "thumb": "img/yuya-hashizume-3_t.jpg"
    },
    "extras": [],
-   "slide": 36
+   "slide": 36,
+   "status": "available"
   }
  ]
 }
