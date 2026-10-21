@@ -15,7 +15,7 @@
   const sold = w => w.status === 'sold';
   // "priceOnRequest": true in data.json shows "Price upon request" instead of the price
   const hidePrice = w => sold(w) || w.priceOnRequest;
-  const por = (w, cls) => !sold(w) && w.priceOnRequest ? `<div class="${cls} por">Price upon request</div>` : '';
+  const por = (w, cls) => !sold(w) && w.priceOnRequest ? `<div class="${cls} on-request">Price upon request</div>` : '';
   const avail = w => sold(w) ? '<span class="av sold">Sold</span>' : '<span class="av">Available</span>';
   const ig = a =>a.instagram ? `<a href="https://www.instagram.com/${esc(a.instagram)}/" target="_blank" rel="noopener">@${esc(a.instagram)}</a>` : '';
 
