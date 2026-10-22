@@ -108,20 +108,42 @@
     });
   }
 
-  function viewWork(id) {
-    const w = workBy[id];
-    if (!w) return notFound();
+  // a set (e.g. Donut Madness, set of 16) lists its "pieces" in data.json; each piece has its own page at #/work/<id>/<no>
+  const setLabel = (set, p) => `${set.title} (set of ${set.pieces.length}), No. ${p.no}`;
+  function piecesMenu(set, curNo) {
+    return `<div class="sec-h"><h2>Pieces in this set</h2><span class="count">${set.pieces.length} pieces</span></div>
+      <div class="pieces">${set.pieces.map(p => `<a class="piece ${p.no === curNo ? 'on' : ''}" href="#/work/${set.id}/${p.no}">
+        <div class="ph"><img src="${p.image.thumb}" alt="${esc(p.title)}" loading="lazy"></div>
+        <span class="no">No. ${p.no}</span><span class="t">${esc(p.title)}</span></a>`).join('')}</div>`;
+  }
+
+  function viewWork(id, sub) {
+    const set = workBy[id];
+    if (!set) return notFound();
+    const piece = sub && set.pieces ? set.pieces.find(p => String(p.no) === sub) : null;
+    if (sub && !piece) return notFound();
+    // a piece page shows the piece's own details; status and artist come from the set
+    const w = piece ? { ...set, ...piece, priceNote: setLabel(set, piece), extras: [] } : set;
     const a = artistBy[w.artist];
     const imgs = [w.image, ...w.extras];
-    const i = data.works.indexOf(w);
-    const prev = data.works[(i - 1 + data.works.length) % data.works.length];
-    const next = data.works[(i + 1) % data.works.length];
+    let prev, next, prevHref, nextHref;
+    if (piece) {
+      const k = set.pieces.indexOf(piece), n = set.pieces.length;
+      prev = set.pieces[(k - 1 + n) % n]; next = set.pieces[(k + 1) % n];
+      prevHref = `#/work/${set.id}/${prev.no}`; nextHref = `#/work/${set.id}/${next.no}`;
+    } else {
+      const i = data.works.indexOf(set);
+      prev = data.works[(i - 1 + data.works.length) % data.works.length];
+      next = data.works[(i + 1) % data.works.length];
+      prevHref = `#/work/${prev.id}`; nextHref = `#/work/${next.id}`;
+    }
+    const pnLabel = x => piece ? `No. ${x.no}, ${esc(x.title)}` : `${esc(artistBy[x.artist].name)}, ${esc(x.title)}`;
     const subject = encodeURIComponent(`[ART TAIPEI 2026] Inquiry: ${a.name} – ${w.title}`);
     const body = encodeURIComponent(`Hello PBG,\n\nI am interested in the following work:\n${a.name}, ${w.title}${w.year ? ', ' + w.year : ''}\n${w.medium}\n${w.dimensions}${hidePrice(w) ? '' : `\nUSD ${w.usd}`}\n\nName:\nPhone:\n`);
     const waText = encodeURIComponent(`Hello PBG, I am interested in ${a.name}, "${w.title}"${w.year ? " (" + w.year + ")" : ""}${hidePrice(w) ? '' : ` – USD ${w.usd}`} (ART TAIPEI 2026, Booth ${data.fair.booth}).`);
     const rows = [['Year', w.year], ['Medium', w.medium], ['Size', w.dimensions], ['Frame', w.frame]]
       .filter(r => r[1]).map(r => `<dt>${r[0]}</dt><dd>${esc(r[1])}</dd>`).join('');
-    app.innerHTML = `<a class="back" href="#/">← All works</a>
+    app.innerHTML = `${piece ? `<a class="back" href="#/work/${set.id}">← ${esc(set.title)} (set of ${set.pieces.length})</a>` : '<a class="back" href="#/">← All works</a>'}
       <section class="work">
         <div><div class="stage" id="stage"><img src="${w.image.src}" alt="${esc(w.title)}"></div>
           ${imgs.length > 1 ? `<div class="thumbs">${imgs.map((im, k) => `<button data-k="${k}" class="${k ? '' : 'on'}"><img src="${im.thumb || im.src}" alt=""></button>`).join('')}</div>` : ''}</div>
@@ -140,8 +162,9 @@
           </div>
         </div>
       </section>
-      <div class="pn"><a href="#/work/${prev.id}">← Previous<b>${esc(artistBy[prev.artist].name)}, ${esc(prev.title)}</b></a>
-        <a href="#/work/${next.id}" style="text-align:right">Next →<b>${esc(artistBy[next.artist].name)}, ${esc(next.title)}</b></a></div>`;
+      ${set.pieces ? piecesMenu(set, piece ? piece.no : null) : ''}
+      <div class="pn"><a href="${prevHref}">← Previous<b>${pnLabel(prev)}</b></a>
+        <a href="${nextHref}" style="text-align:right">Next →<b>${pnLabel(next)}</b></a></div>`;
     let cur = 0;
     const stageImg = app.querySelector('#stage img');
     const show = k => { cur = k; stageImg.src = imgs[k].src; app.querySelectorAll('.thumbs button').forEach(b => b.classList.toggle('on', +b.dataset.k === k)); };
@@ -181,10 +204,10 @@
   });
 
   function route() {
-    const [, page, arg] = (location.hash || '#/').split('/');
+    const [, page, arg, sub] = (location.hash || '#/').split('/');
     const nav = page === 'artists' || page === 'artist' ? 'artists' : page === 'info' ? 'info' : 'works';
     document.querySelectorAll('[data-nav]').forEach(a => a.classList.toggle('on', a.dataset.nav === nav));
-    if (page === 'work') viewWork(arg);
+    if (page === 'work') viewWork(arg, sub);
     else if (page === 'artist') viewArtist(arg);
     else if (page === 'artists') viewArtists();
     else if (page === 'info') viewInfo();

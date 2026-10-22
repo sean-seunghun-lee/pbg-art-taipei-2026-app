@@ -85,6 +85,17 @@ select { font: inherit; font-size: 13px; border: 1px solid var(--line); border-r
 .thumbs button { flex: none; width: 64px; height: 64px; padding: 0; border: 1.5px solid transparent; background: var(--soft); cursor: pointer; }
 .thumbs button.on { border-color: var(--ink); }
 .thumbs img { width: 100%; height: 100%; object-fit: cover; }
+/* pieces of a set (sub-menu under the set's work page) */
+.pieces { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 14px 10px; margin-bottom: 36px; }
+@media (min-width: 760px) { .pieces { grid-template-columns: repeat(8, minmax(0, 1fr)); gap: 18px 14px; } }
+.piece { text-decoration: none; display: block; font-size: 12px; line-height: 1.35; }
+.piece .ph { background: var(--soft); aspect-ratio: 1; overflow: hidden; border: 1.5px solid transparent; }
+.piece .ph img { width: 100%; height: 100%; object-fit: cover; transition: transform .3s ease; }
+.piece:hover .ph img { transform: scale(1.05); }
+.piece.on .ph { border-color: var(--ink); }
+.piece .no { display: block; margin-top: 6px; color: var(--muted); }
+.piece .t { display: block; color: var(--ink); }
+.piece.on .t { font-weight: 600; }
 .info h1 { margin: 0; font-size: 24px; line-height: 1.2; }
 .info .cn { font-size: 15px; color: var(--muted); margin-top: 2px; }
 .info .bl { font-size: 13px; color: var(--muted); margin-top: 6px; }

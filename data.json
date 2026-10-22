@@ -812,7 +812,265 @@
      "h": 1800
     }
    ],
-   "slide": 3
+   "slide": 3,
+   "pieces": [
+    {
+     "no": 1,
+     "title": "Painting Series 251",
+     "year": "2022",
+     "medium": "F.R.P., Urethane Paint, Acrylic Paint, Resin, Crystals",
+     "dimensions": "H 32 x W 34.8 x D 13 cm",
+     "usd": "12,000",
+     "twd": "384,000",
+     "usdValue": 12000,
+     "image": {
+      "src": "img/jae-yong-kim-1-p01.jpg",
+      "w": 548,
+      "h": 560,
+      "thumb": "img/jae-yong-kim-1-p01.jpg"
+     }
+    },
+    {
+     "no": 2,
+     "title": "Painting Series 024",
+     "year": "2023",
+     "medium": "Ceramics, Urethane Paint, Acrylic Paint, Resin, Crystals",
+     "dimensions": "H 32.5 x W 30.5 x D 13 cm",
+     "usd": "12,000",
+     "twd": "384,000",
+     "usdValue": 12000,
+     "image": {
+      "src": "img/jae-yong-kim-1-p02.jpg",
+      "w": 543,
+      "h": 537,
+      "thumb": "img/jae-yong-kim-1-p02.jpg"
+     }
+    },
+    {
+     "no": 3,
+     "title": "Painting Series 218",
+     "year": "2024",
+     "medium": "F.R.P., Urethane Paint, Acrylic Paint, Resin, Crystals",
+     "dimensions": "H 32.5 x W 30.5 x D 13 cm",
+     "usd": "12,000",
+     "twd": "384,000",
+     "usdValue": 12000,
+     "image": {
+      "src": "img/jae-yong-kim-1-p03.jpg",
+      "w": 538,
+      "h": 520,
+      "thumb": "img/jae-yong-kim-1-p03.jpg"
+     }
+    },
+    {
+     "no": 4,
+     "title": "Painting Series 062",
+     "year": "2023",
+     "medium": "Ceramics, Urethane Paint, Acrylic Paint, Resin, Crystals",
+     "dimensions": "H 32 x W 32.8 x D 13 cm",
+     "usd": "12,000",
+     "twd": "384,000",
+     "usdValue": 12000,
+     "image": {
+      "src": "img/jae-yong-kim-1-p04.jpg",
+      "w": 537,
+      "h": 558,
+      "thumb": "img/jae-yong-kim-1-p04.jpg"
+     }
+    },
+    {
+     "no": 5,
+     "title": "Painting Series 044",
+     "year": "2023",
+     "medium": "Ceramics, Urethane Paint, Acrylic Paint, Resin, Crystals",
+     "dimensions": "H 27.9 x W 27.4 x D 13 cm",
+     "usd": "12,000",
+     "twd": "384,000",
+     "usdValue": 12000,
+     "image": {
+      "src": "img/jae-yong-kim-1-p05.jpg",
+      "w": 539,
+      "h": 535,
+      "thumb": "img/jae-yong-kim-1-p05.jpg"
+     }
+    },
+    {
+     "no": 6,
+     "title": "Painting Series 015",
+     "year": "2023",
+     "medium": "Ceramics, Urethane Paint, Acrylic Paint, Resin, Crystals",
+     "dimensions": "H 32 x W 34.8 x D 13 cm",
+     "usd": "12,000",
+     "twd": "384,000",
+     "usdValue": 12000,
+     "image": {
+      "src": "img/jae-yong-kim-1-p06.jpg",
+      "w": 540,
+      "h": 513,
+      "thumb": "img/jae-yong-kim-1-p06.jpg"
+     }
+    },
+    {
+     "no": 7,
+     "title": "Painting Series 022",
+     "year": "2023",
+     "medium": "Ceramics, Urethane Paint, Acrylic Paint, Resin, Crystals",
+     "dimensions": "H 27.9 x W 27.4 x D 13 cm",
+     "usd": "12,000",
+     "twd": "384,000",
+     "usdValue": 12000,
+     "image": {
+      "src": "img/jae-yong-kim-1-p07.jpg",
+      "w": 539,
+      "h": 558,
+      "thumb": "img/jae-yong-kim-1-p07.jpg"
+     }
+    },
+    {
+     "no": 8,
+     "title": "Painting Series 183",
+     "year": "2024",
+     "medium": "F.R.P., Urethane Paint, Acrylic Paint, Resin",
+     "dimensions": "H 33 x W 32.5 x D 13 cm",
+     "usd": "12,000",
+     "twd": "384,000",
+     "usdValue": 12000,
+     "image": {
+      "src": "img/jae-yong-kim-1-p08.jpg",
+      "w": 538,
+      "h": 558,
+      "thumb": "img/jae-yong-kim-1-p08.jpg"
+     }
+    },
+    {
+     "no": 9,
+     "title": "Painting Series 052",
+     "year": "2023",
+     "medium": "Ceramics, Urethane Paint, Acrylic Paint, Resin, Crystals",
+     "dimensions": "H 32.5 x W 30.5 x D 13 cm",
+     "usd": "12,000",
+     "twd": "384,000",
+     "usdValue": 12000,
+     "image": {
+      "src": "img/jae-yong-kim-1-p09.jpg",
+      "w": 538,
+      "h": 550,
+      "thumb": "img/jae-yong-kim-1-p09.jpg"
+     }
+    },
+    {
+     "no": 10,
+     "title": "Painting Series 028",
+     "year": "2023",
+     "medium": "Ceramics, Urethane Paint, Acrylic Paint, Resin, Crystals",
+     "dimensions": "H 32.5 x W 30.5 x D 13 cm",
+     "usd": "12,000",
+     "twd": "384,000",
+     "usdValue": 12000,
+     "image": {
+      "src": "img/jae-yong-kim-1-p10.jpg",
+      "w": 538,
+      "h": 545,
+      "thumb": "img/jae-yong-kim-1-p10.jpg"
+     }
+    },
+    {
+     "no": 11,
+     "title": "Painting Series 107",
+     "year": "2024",
+     "medium": "F.R.P., Urethane Paint, Acrylic Paint, Resin, Crystals",
+     "dimensions": "H 33 x W 33 x D 13 cm",
+     "usd": "12,000",
+     "twd": "384,000",
+     "usdValue": 12000,
+     "image": {
+      "src": "img/jae-yong-kim-1-p11.jpg",
+      "w": 540,
+      "h": 550,
+      "thumb": "img/jae-yong-kim-1-p11.jpg"
+     }
+    },
+    {
+     "no": 12,
+     "title": "Painting Series 189",
+     "year": "2024",
+     "medium": "F.R.P., Urethane Paint, Acrylic Paint, Resin, Crystals",
+     "dimensions": "H 32 x W 32.8 x D 13 cm",
+     "usd": "12,000",
+     "twd": "384,000",
+     "usdValue": 12000,
+     "image": {
+      "src": "img/jae-yong-kim-1-p12.jpg",
+      "w": 538,
+      "h": 552,
+      "thumb": "img/jae-yong-kim-1-p12.jpg"
+     }
+    },
+    {
+     "no": 13,
+     "title": "Painting Series 187",
+     "year": "2024",
+     "medium": "F.R.P., Acrylic Paint, Urethane Paint, Resin, Crystals",
+     "dimensions": "H 33 x W 33 x D 13 cm",
+     "usd": "12,000",
+     "twd": "384,000",
+     "usdValue": 12000,
+     "image": {
+      "src": "img/jae-yong-kim-1-p13.jpg",
+      "w": 538,
+      "h": 557,
+      "thumb": "img/jae-yong-kim-1-p13.jpg"
+     }
+    },
+    {
+     "no": 14,
+     "title": "Painting Series 294",
+     "year": "2025",
+     "medium": "F.R.P., Chrome Plating, Urethane Paint, Crystals",
+     "dimensions": "H 34 x W 34 x D 13 cm",
+     "usd": "12,000",
+     "twd": "384,000",
+     "usdValue": 12000,
+     "image": {
+      "src": "img/jae-yong-kim-1-p14.jpg",
+      "w": 539,
+      "h": 544,
+      "thumb": "img/jae-yong-kim-1-p14.jpg"
+     }
+    },
+    {
+     "no": 15,
+     "title": "Painting Series 010",
+     "year": "2022",
+     "medium": "Ceramics, Urethane Paint, Acrylic Paint, Resin, Crystals",
+     "dimensions": "H 32.5 x W 30.5 x D 13 cm",
+     "usd": "12,000",
+     "twd": "384,000",
+     "usdValue": 12000,
+     "image": {
+      "src": "img/jae-yong-kim-1-p15.jpg",
+      "w": 539,
+      "h": 562,
+      "thumb": "img/jae-yong-kim-1-p15.jpg"
+     }
+    },
+    {
+     "no": 16,
+     "title": "Painting Series 025",
+     "year": "2023",
+     "medium": "Ceramics, Urethane Paint, Acrylic Paint, Resin, Crystals",
+     "dimensions": "H 30.5 x W 30.5 x D 13 cm",
+     "usd": "12,000",
+     "twd": "384,000",
+     "usdValue": 12000,
+     "image": {
+      "src": "img/jae-yong-kim-1-p16.jpg",
+      "w": 542,
+      "h": 549,
+      "thumb": "img/jae-yong-kim-1-p16.jpg"
+     }
+    }
+   ]
   },
   {
    "id": "jae-yong-kim-2",
