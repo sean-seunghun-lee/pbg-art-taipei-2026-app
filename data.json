@@ -1098,7 +1098,585 @@
      "h": 1800
     }
    ],
-   "slide": 5
+   "slide": 5,
+   "pieces": [
+    {
+     "no": 1,
+     "title": "Donut Madness RWC023",
+     "year": "2026",
+     "medium": "Ceramics, Underglaze, Glaze, Luster Glaze, Chrome Plating, Crystals",
+     "dimensions": "Approx. 10 x 10 x 4.5 cm",
+     "usd": "2,800",
+     "twd": "89,600",
+     "usdValue": 2800,
+     "image": {
+      "src": "img/jae-yong-kim-2-p01.jpg",
+      "w": 379,
+      "h": 379,
+      "thumb": "img/jae-yong-kim-2-p01.jpg"
+     }
+    },
+    {
+     "no": 2,
+     "title": "Donut Madness TK020",
+     "year": "2022",
+     "medium": "Ceramics, Underglaze, Glaze, Luster Glaze, Chrome Plating, Crystals",
+     "dimensions": "Approx. 10 x 10 x 4.5 cm",
+     "usd": "1,150",
+     "twd": "36,800",
+     "usdValue": 1150,
+     "image": {
+      "src": "img/jae-yong-kim-2-p02.jpg",
+      "w": 351,
+      "h": 351,
+      "thumb": "img/jae-yong-kim-2-p02.jpg"
+     }
+    },
+    {
+     "no": 3,
+     "title": "Donut Madness RW028",
+     "year": "2026",
+     "medium": "Ceramics, Underglaze, Glaze, Luster Glaze, Chrome Plating, Crystals",
+     "dimensions": "Approx. 10 x 10 x 4.5 cm",
+     "usd": "2,700",
+     "twd": "86,400",
+     "usdValue": 2700,
+     "image": {
+      "src": "img/jae-yong-kim-2-p03.jpg",
+      "w": 351,
+      "h": 351,
+      "thumb": "img/jae-yong-kim-2-p03.jpg"
+     }
+    },
+    {
+     "no": 4,
+     "title": "Donut Madness TK236",
+     "year": "2025",
+     "medium": "Ceramics, Underglaze, Glaze, Luster Glaze, Chrome Plating, Crystals",
+     "dimensions": "Approx. 10 x 10 x 4.5 cm",
+     "usd": "1,150",
+     "twd": "36,800",
+     "usdValue": 1150,
+     "image": {
+      "src": "img/jae-yong-kim-2-p04.jpg",
+      "w": 334,
+      "h": 334,
+      "thumb": "img/jae-yong-kim-2-p04.jpg"
+     }
+    },
+    {
+     "no": 5,
+     "title": "Donut Madness RW029",
+     "year": "2026",
+     "medium": "Ceramics, Underglaze, Glaze, Luster Glaze, Chrome Plating, Crystals",
+     "dimensions": "Approx. 10 x 10 x 4.5 cm",
+     "usd": "2,700",
+     "twd": "86,400",
+     "usdValue": 2700,
+     "image": {
+      "src": "img/jae-yong-kim-2-p05.jpg",
+      "w": 340,
+      "h": 340,
+      "thumb": "img/jae-yong-kim-2-p05.jpg"
+     }
+    },
+    {
+     "no": 6,
+     "title": "Donut Madness TH735",
+     "year": "2021",
+     "medium": "Ceramics, Underglaze, Glaze, Luster Glaze, Chrome Plating, Crystals",
+     "dimensions": "Approx. 10 x 10 x 4.5 cm",
+     "usd": "1,150",
+     "twd": "36,800",
+     "usdValue": 1150,
+     "image": {
+      "src": "img/jae-yong-kim-2-p06.jpg",
+      "w": 343,
+      "h": 343,
+      "thumb": "img/jae-yong-kim-2-p06.jpg"
+     }
+    },
+    {
+     "no": 7,
+     "title": "Donut Madness KOI035",
+     "year": "2026",
+     "medium": "Ceramics, Underglaze, Glaze, Luster Glaze, Chrome Plating, Crystals",
+     "dimensions": "Approx. 10 x 10 x 4.5 cm",
+     "usd": "1,450",
+     "twd": "46,400",
+     "usdValue": 1450,
+     "image": {
+      "src": "img/jae-yong-kim-2-p07.jpg",
+      "w": 391,
+      "h": 391,
+      "thumb": "img/jae-yong-kim-2-p07.jpg"
+     }
+    },
+    {
+     "no": 8,
+     "title": "Donut Madness RW030",
+     "year": "2026",
+     "medium": "Ceramics, Underglaze, Glaze, Luster Glaze, Chrome Plating, Crystals",
+     "dimensions": "Approx. 10 x 10 x 4.5 cm",
+     "usd": "2,700",
+     "twd": "86,400",
+     "usdValue": 2700,
+     "image": {
+      "src": "img/jae-yong-kim-2-p08.jpg",
+      "w": 355,
+      "h": 355,
+      "thumb": "img/jae-yong-kim-2-p08.jpg"
+     }
+    },
+    {
+     "no": 9,
+     "title": "Donut Madness TI241",
+     "year": "2021",
+     "medium": "Ceramics, Underglaze, Glaze, Luster Glaze, Chrome Plating, Crystals",
+     "dimensions": "Approx. 10 x 10 x 4.5 cm",
+     "usd": "1,300",
+     "twd": "41,600",
+     "usdValue": 1300,
+     "image": {
+      "src": "img/jae-yong-kim-2-p09.jpg",
+      "w": 336,
+      "h": 336,
+      "thumb": "img/jae-yong-kim-2-p09.jpg"
+     }
+    },
+    {
+     "no": 10,
+     "title": "Donut Madness RWC024",
+     "year": "2026",
+     "medium": "Ceramics, Underglaze, Glaze, Luster Glaze, Chrome Plating, Crystals",
+     "dimensions": "Approx. 10 x 10 x 4.5 cm",
+     "usd": "2,800",
+     "twd": "89,600",
+     "usdValue": 2800,
+     "image": {
+      "src": "img/jae-yong-kim-2-p10.jpg",
+      "w": 386,
+      "h": 386,
+      "thumb": "img/jae-yong-kim-2-p10.jpg"
+     }
+    },
+    {
+     "no": 11,
+     "title": "Donut Madness TD238",
+     "year": "2018",
+     "medium": "Ceramics, Underglaze, Glaze, Luster Glaze, Chrome Plating, Crystals",
+     "dimensions": "Approx. 10 x 10 x 4.5 cm",
+     "usd": "1,150",
+     "twd": "36,800",
+     "usdValue": 1150,
+     "image": {
+      "src": "img/jae-yong-kim-2-p11.jpg",
+      "w": 333,
+      "h": 333,
+      "thumb": "img/jae-yong-kim-2-p11.jpg"
+     }
+    },
+    {
+     "no": 12,
+     "title": "Donut Madness RW031",
+     "year": "2026",
+     "medium": "Ceramics, Underglaze, Glaze, Luster Glaze, Chrome Plating, Crystals",
+     "dimensions": "Approx. 10 x 10 x 4.5 cm",
+     "usd": "2,700",
+     "twd": "86,400",
+     "usdValue": 2700,
+     "image": {
+      "src": "img/jae-yong-kim-2-p12.jpg",
+      "w": 392,
+      "h": 392,
+      "thumb": "img/jae-yong-kim-2-p12.jpg"
+     }
+    },
+    {
+     "no": 13,
+     "title": "Donut Madness RW032",
+     "year": "2026",
+     "medium": "Ceramics, Underglaze, Glaze, Luster Glaze, Chrome Plating, Crystals",
+     "dimensions": "Approx. 10 x 10 x 4.5 cm",
+     "usd": "2,700",
+     "twd": "86,400",
+     "usdValue": 2700,
+     "image": {
+      "src": "img/jae-yong-kim-2-p13.jpg",
+      "w": 350,
+      "h": 350,
+      "thumb": "img/jae-yong-kim-2-p13.jpg"
+     }
+    },
+    {
+     "no": 14,
+     "title": "Donut Madness TG227",
+     "year": "2020",
+     "medium": "Ceramics, Underglaze, Glaze, Luster Glaze, Chrome Plating, Crystals",
+     "dimensions": "Approx. 10 x 10 x 4.5 cm",
+     "usd": "1,150",
+     "twd": "36,800",
+     "usdValue": 1150,
+     "image": {
+      "src": "img/jae-yong-kim-2-p14.jpg",
+      "w": 370,
+      "h": 370,
+      "thumb": "img/jae-yong-kim-2-p14.jpg"
+     }
+    },
+    {
+     "no": 15,
+     "title": "Donut Madness KOI032",
+     "year": "2026",
+     "medium": "Ceramics, Underglaze, Glaze, Luster Glaze, Chrome Plating, Crystals",
+     "dimensions": "Approx. 10 x 10 x 4.5 cm",
+     "usd": "1,450",
+     "twd": "46,400",
+     "usdValue": 1450,
+     "image": {
+      "src": "img/jae-yong-kim-2-p15.jpg",
+      "w": 328,
+      "h": 328,
+      "thumb": "img/jae-yong-kim-2-p15.jpg"
+     }
+    },
+    {
+     "no": 16,
+     "title": "Donut Madness TE605",
+     "year": "2018",
+     "medium": "Ceramics, Underglaze, Glaze, Luster Glaze, Chrome Plating, Crystals",
+     "dimensions": "Approx. 10 x 10 x 4.5 cm",
+     "usd": "1,150",
+     "twd": "36,800",
+     "usdValue": 1150,
+     "image": {
+      "src": "img/jae-yong-kim-2-p16.jpg",
+      "w": 332,
+      "h": 332,
+      "thumb": "img/jae-yong-kim-2-p16.jpg"
+     }
+    },
+    {
+     "no": 17,
+     "title": "Donut Madness RW033",
+     "year": "2026",
+     "medium": "Ceramics, Underglaze, Glaze, Luster Glaze, Chrome Plating, Crystals",
+     "dimensions": "Approx. 10 x 10 x 4.5 cm",
+     "usd": "2,700",
+     "twd": "86,400",
+     "usdValue": 2700,
+     "image": {
+      "src": "img/jae-yong-kim-2-p17.jpg",
+      "w": 385,
+      "h": 385,
+      "thumb": "img/jae-yong-kim-2-p17.jpg"
+     }
+    },
+    {
+     "no": 18,
+     "title": "Donut Madness TE524",
+     "year": "2019",
+     "medium": "Ceramics, Underglaze, Glaze, Luster Glaze, Chrome Plating, Crystals",
+     "dimensions": "Approx. 10 x 10 x 4.5 cm",
+     "usd": "1,300",
+     "twd": "41,600",
+     "usdValue": 1300,
+     "image": {
+      "src": "img/jae-yong-kim-2-p18.jpg",
+      "w": 351,
+      "h": 351,
+      "thumb": "img/jae-yong-kim-2-p18.jpg"
+     }
+    },
+    {
+     "no": 19,
+     "title": "Donut Madness TI345",
+     "year": "2021",
+     "medium": "Ceramics, Underglaze, Glaze, Luster Glaze, Chrome Plating, Crystals",
+     "dimensions": "Approx. 10 x 10 x 4.5 cm",
+     "usd": "1,300",
+     "twd": "41,600",
+     "usdValue": 1300,
+     "image": {
+      "src": "img/jae-yong-kim-2-p19.jpg",
+      "w": 349,
+      "h": 349,
+      "thumb": "img/jae-yong-kim-2-p19.jpg"
+     }
+    },
+    {
+     "no": 20,
+     "title": "Donut Madness RWC025",
+     "year": "2026",
+     "medium": "Ceramics, Underglaze, Glaze, Luster Glaze, Chrome Plating, Crystals",
+     "dimensions": "Approx. 10 x 10 x 4.5 cm",
+     "usd": "2,800",
+     "twd": "89,600",
+     "usdValue": 2800,
+     "image": {
+      "src": "img/jae-yong-kim-2-p20.jpg",
+      "w": 384,
+      "h": 384,
+      "thumb": "img/jae-yong-kim-2-p20.jpg"
+     }
+    },
+    {
+     "no": 21,
+     "title": "Donut Madness TH725",
+     "year": "2021",
+     "medium": "Ceramics, Underglaze, Glaze, Luster Glaze, Chrome Plating, Crystals",
+     "dimensions": "Approx. 10 x 10 x 4.5 cm",
+     "usd": "1,150",
+     "twd": "36,800",
+     "usdValue": 1150,
+     "image": {
+      "src": "img/jae-yong-kim-2-p21.jpg",
+      "w": 353,
+      "h": 353,
+      "thumb": "img/jae-yong-kim-2-p21.jpg"
+     }
+    },
+    {
+     "no": 22,
+     "title": "Donut Madness RWC026",
+     "year": "2026",
+     "medium": "Ceramics, Underglaze, Glaze, Luster Glaze, Chrome Plating, Crystals",
+     "dimensions": "Approx. 10 x 10 x 4.5 cm",
+     "usd": "2,800",
+     "twd": "89,600",
+     "usdValue": 2800,
+     "image": {
+      "src": "img/jae-yong-kim-2-p22.jpg",
+      "w": 354,
+      "h": 354,
+      "thumb": "img/jae-yong-kim-2-p22.jpg"
+     }
+    },
+    {
+     "no": 23,
+     "title": "Donut Madness TH668",
+     "year": "2021",
+     "medium": "Ceramics, Underglaze, Glaze, Luster Glaze, Chrome Plating, Crystals",
+     "dimensions": "Approx. 10 x 10 x 4.5 cm",
+     "usd": "1,150",
+     "twd": "36,800",
+     "usdValue": 1150,
+     "image": {
+      "src": "img/jae-yong-kim-2-p23.jpg",
+      "w": 340,
+      "h": 340,
+      "thumb": "img/jae-yong-kim-2-p23.jpg"
+     }
+    },
+    {
+     "no": 24,
+     "title": "Donut Madness TK297",
+     "year": "2020",
+     "medium": "Ceramics, Underglaze, Glaze, Luster Glaze, Chrome Plating, Crystals",
+     "dimensions": "Approx. 10 x 10 x 4.5 cm",
+     "usd": "1,150",
+     "twd": "36,800",
+     "usdValue": 1150,
+     "image": {
+      "src": "img/jae-yong-kim-2-p24.jpg",
+      "w": 339,
+      "h": 339,
+      "thumb": "img/jae-yong-kim-2-p24.jpg"
+     }
+    },
+    {
+     "no": 25,
+     "title": "Donut Madness RW034",
+     "year": "2026",
+     "medium": "Ceramics, Underglaze, Glaze, Luster Glaze, Chrome Plating, Crystals",
+     "dimensions": "Approx. 10 x 10 x 4.5 cm",
+     "usd": "2,700",
+     "twd": "86,400",
+     "usdValue": 2700,
+     "image": {
+      "src": "img/jae-yong-kim-2-p25.jpg",
+      "w": 395,
+      "h": 395,
+      "thumb": "img/jae-yong-kim-2-p25.jpg"
+     }
+    },
+    {
+     "no": 26,
+     "title": "Donut Madness TI066",
+     "year": "2022",
+     "medium": "Ceramics, Underglaze, Glaze, Luster Glaze, Chrome Plating, Crystals",
+     "dimensions": "Approx. 10 x 10 x 4.5 cm",
+     "usd": "1,150",
+     "twd": "36,800",
+     "usdValue": 1150,
+     "image": {
+      "src": "img/jae-yong-kim-2-p26.jpg",
+      "w": 340,
+      "h": 340,
+      "thumb": "img/jae-yong-kim-2-p26.jpg"
+     }
+    },
+    {
+     "no": 27,
+     "title": "Donut Madness RW035",
+     "year": "2026",
+     "medium": "Ceramics, Underglaze, Glaze, Luster Glaze, Chrome Plating, Crystals",
+     "dimensions": "Approx. 10 x 10 x 4.5 cm",
+     "usd": "2,700",
+     "twd": "86,400",
+     "usdValue": 2700,
+     "image": {
+      "src": "img/jae-yong-kim-2-p27.jpg",
+      "w": 350,
+      "h": 350,
+      "thumb": "img/jae-yong-kim-2-p27.jpg"
+     }
+    },
+    {
+     "no": 28,
+     "title": "Donut Madness TK409",
+     "year": "2026",
+     "medium": "Ceramics, Underglaze, Glaze, Luster Glaze, Chrome Plating, Crystals",
+     "dimensions": "Approx. 10 x 10 x 4.5 cm",
+     "usd": "1,450",
+     "twd": "46,400",
+     "usdValue": 1450,
+     "image": {
+      "src": "img/jae-yong-kim-2-p28.jpg",
+      "w": 357,
+      "h": 357,
+      "thumb": "img/jae-yong-kim-2-p28.jpg"
+     }
+    },
+    {
+     "no": 29,
+     "title": "Donut Madness RWC027",
+     "year": "2026",
+     "medium": "Ceramics, Underglaze, Glaze, Luster Glaze, Chrome Plating, Crystals",
+     "dimensions": "Approx. 10 x 10 x 4.5 cm",
+     "usd": "2,800",
+     "twd": "89,600",
+     "usdValue": 2800,
+     "image": {
+      "src": "img/jae-yong-kim-2-p29.jpg",
+      "w": 399,
+      "h": 399,
+      "thumb": "img/jae-yong-kim-2-p29.jpg"
+     }
+    },
+    {
+     "no": 30,
+     "title": "Donut Madness TH401",
+     "year": "2021",
+     "medium": "Ceramics, Underglaze, Glaze, Luster Glaze, Chrome Plating, Crystals",
+     "dimensions": "Approx. 10 x 10 x 4.5 cm",
+     "usd": "1,150",
+     "twd": "36,800",
+     "usdValue": 1150,
+     "image": {
+      "src": "img/jae-yong-kim-2-p30.jpg",
+      "w": 381,
+      "h": 381,
+      "thumb": "img/jae-yong-kim-2-p30.jpg"
+     }
+    },
+    {
+     "no": 31,
+     "title": "Donut Madness TH438",
+     "year": "2021",
+     "medium": "Ceramics, Underglaze, Glaze, Luster Glaze, Chrome Plating, Crystals",
+     "dimensions": "Approx. 10 x 10 x 4.5 cm",
+     "usd": "1,150",
+     "twd": "36,800",
+     "usdValue": 1150,
+     "image": {
+      "src": "img/jae-yong-kim-2-p31.jpg",
+      "w": 344,
+      "h": 344,
+      "thumb": "img/jae-yong-kim-2-p31.jpg"
+     }
+    },
+    {
+     "no": 32,
+     "title": "Donut Madness RW036",
+     "year": "2026",
+     "medium": "Ceramics, Underglaze, Glaze, Luster Glaze, Chrome Plating, Crystals",
+     "dimensions": "Approx. 10 x 10 x 4.5 cm",
+     "usd": "2,700",
+     "twd": "86,400",
+     "usdValue": 2700,
+     "image": {
+      "src": "img/jae-yong-kim-2-p32.jpg",
+      "w": 361,
+      "h": 361,
+      "thumb": "img/jae-yong-kim-2-p32.jpg"
+     }
+    },
+    {
+     "no": 33,
+     "title": "Donut Madness TG632",
+     "year": "2020",
+     "medium": "Ceramics, Underglaze, Glaze, Luster Glaze, Chrome Plating, Crystals",
+     "dimensions": "Approx. 10 x 10 x 4.5 cm",
+     "usd": "1,150",
+     "twd": "36,800",
+     "usdValue": 1150,
+     "image": {
+      "src": "img/jae-yong-kim-2-p33.jpg",
+      "w": 358,
+      "h": 358,
+      "thumb": "img/jae-yong-kim-2-p33.jpg"
+     }
+    },
+    {
+     "no": 34,
+     "title": "Donut Madness RWC029",
+     "year": "2026",
+     "medium": "Ceramics, Underglaze, Glaze, Luster Glaze, Chrome Plating, Crystals",
+     "dimensions": "Approx. 10 x 10 x 4.5 cm",
+     "usd": "2,800",
+     "twd": "89,600",
+     "usdValue": 2800,
+     "image": {
+      "src": "img/jae-yong-kim-2-p34.jpg",
+      "w": 362,
+      "h": 362,
+      "thumb": "img/jae-yong-kim-2-p34.jpg"
+     }
+    },
+    {
+     "no": 35,
+     "title": "Donut Madness TJ013",
+     "year": "2025",
+     "medium": "Ceramics, Underglaze, Glaze, Luster Glaze, Chrome Plating, Crystals",
+     "dimensions": "Approx. 10 x 10 x 4.5 cm",
+     "usd": "1,300",
+     "twd": "41,600",
+     "usdValue": 1300,
+     "image": {
+      "src": "img/jae-yong-kim-2-p35.jpg",
+      "w": 328,
+      "h": 328,
+      "thumb": "img/jae-yong-kim-2-p35.jpg"
+     }
+    },
+    {
+     "no": 36,
+     "title": "Donut Madness TD503",
+     "year": "2018",
+     "medium": "Ceramics, Underglaze, Glaze, Luster Glaze, Chrome Plating, Crystals",
+     "dimensions": "Approx. 10 x 10 x 4.5 cm",
+     "usd": "1,150",
+     "twd": "36,800",
+     "usdValue": 1150,
+     "image": {
+      "src": "img/jae-yong-kim-2-p36.jpg",
+      "w": 338,
+      "h": 338,
+      "thumb": "img/jae-yong-kim-2-p36.jpg"
+     }
+    }
+   ]
   },
   {
    "id": "moon-hyeongtae-1",
