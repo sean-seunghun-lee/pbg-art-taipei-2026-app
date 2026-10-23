@@ -7,6 +7,7 @@
   const WHATSAPP = 'https://wa.me/821050138072';
   const LINE = 'https://line.me/ti/p/cjycU2BKMJ';
   const PDF = 'PBG_ART_TPE26_Factsheet.pdf';
+  const BOOTH = 'https://pbg-art-taipei-2026-booth.vercel.app/';
 
   const esc = s => String(s ?? '').replace(/[&<>"']/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]));
   const bline = a => [a.born && `b. ${a.born}`, a.country].filter(Boolean).join(', ');
@@ -53,6 +54,7 @@
       <section class="hero"><img src="${data.cover.src}" alt="">
         <div class="hero-txt"><h1>ART TAIPEI 2026</h1>
           <p>PBG · Booth ${esc(data.fair.booth)} · ${esc(data.fair.dates)} · ${esc(data.fair.venue)}</p></div></section>
+      <div class="hero-cta"><a class="btn" href="${BOOTH}" target="_blank" rel="noopener">View the Booth</a></div>
       <div class="sec-h"><h2>Works</h2><span class="count">${list.length} of ${data.works.length}</span></div>
       <div class="controls">
         <div class="chips">${chips}</div>
