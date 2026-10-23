@@ -54,7 +54,7 @@
       <section class="hero"><img src="${data.cover.src}" alt="">
         <div class="hero-txt"><h1>ART TAIPEI 2026</h1>
           <p>PBG · Booth ${esc(data.fair.booth)} · ${esc(data.fair.dates)} · ${esc(data.fair.venue)}</p></div></section>
-      <div class="hero-cta"><a class="btn" href="${BOOTH}" target="_blank" rel="noopener">View the Booth</a></div>
+      <div class="hero-cta"><a class="btn" href="${BOOTH}" target="_blank" rel="noopener">Explore the Booth in 3D</a></div>
       <div class="sec-h"><h2>Works</h2><span class="count">${list.length} of ${data.works.length}</span></div>
       <div class="controls">
         <div class="chips">${chips}</div>
