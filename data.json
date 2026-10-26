@@ -2131,7 +2131,8 @@
    },
    "extras": [],
    "slide": 34,
-   "status": "available"
+   "status": "available",
+   "priceOnRequest": true
   },
   {
    "id": "yuya-hashizume-2",
@@ -2152,7 +2153,8 @@
    },
    "extras": [],
    "slide": 35,
-   "status": "available"
+   "status": "available",
+   "priceOnRequest": true
   },
   {
    "id": "yuya-hashizume-3",
@@ -2173,7 +2175,8 @@
    },
    "extras": [],
    "slide": 36,
-   "status": "available"
+   "status": "available",
+   "priceOnRequest": true
   }
  ]
 }
