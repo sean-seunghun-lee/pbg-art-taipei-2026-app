@@ -1936,8 +1936,8 @@
    "usdValue": 5000,
    "image": {
     "src": "img/chungshin-1.jpg",
-    "w": 390,
-    "h": 524,
+    "w": 1337,
+    "h": 1800,
     "thumb": "img/chungshin-1_t.jpg"
    },
    "extras": [],
@@ -1957,8 +1957,8 @@
    "usdValue": 5000,
    "image": {
     "src": "img/chungshin-2.jpg",
-    "w": 714,
-    "h": 968,
+    "w": 1327,
+    "h": 1800,
     "thumb": "img/chungshin-2_t.jpg"
    },
    "extras": [],
@@ -1978,8 +1978,8 @@
    "usdValue": 5000,
    "image": {
     "src": "img/chungshin-3.jpg",
-    "w": 388,
-    "h": 385,
+    "w": 1800,
+    "h": 1785,
     "thumb": "img/chungshin-3_t.jpg"
    },
    "extras": [],
@@ -1999,8 +1999,8 @@
    "usdValue": 5000,
    "image": {
     "src": "img/chungshin-4.jpg",
-    "w": 491,
-    "h": 358,
+    "w": 1800,
+    "h": 1311,
     "thumb": "img/chungshin-4_t.jpg"
    },
    "extras": [],
