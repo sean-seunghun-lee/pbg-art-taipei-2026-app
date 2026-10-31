@@ -176,3 +176,5 @@ select { font: inherit; font-size: 13px; border: 1px solid var(--line); border-r
 .av.sold { color: #c62828; }
 .av.sold::before { background: #e53935; }
 .price .av { font-size: 13.5px; margin: 0 0 8px; }
+
+.also { font-size: 13px; color: var(--muted); margin: 8px 0 0; }

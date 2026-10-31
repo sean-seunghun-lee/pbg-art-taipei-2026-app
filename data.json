@@ -186,7 +186,14 @@
      ]
     }
    ],
-   "introZh": "文亨泰在畫作中構築出一個融合表現主義與超現實主義思想的豐富世界。從他作品中孩童般的變形、符號化的編碼與溫暖的赭色調，可以看見眼鏡蛇畫派（CoBRA）與尚・杜布菲（Jean Dubuffet）的影響。以採集自人生中具有意義之地的水與泥土反覆洗刷畫布，是文亨泰的招牌技法；這種獨特的方法，讓每件作品都紮根於個人的記憶之中。他畫中的人物雖經簡化，卻依然充滿表現力，並常疊上具有象徵意義的數字：1代表自我、2代表關係、3代表家庭、4代表社會、5代表孤獨。〈Roof〉與〈Merry-Go-Round〉等近作延續了他對親密、鄉愁與日常生活奇趣的探索，以大膽的色彩與富觸感的畫面，同時喚起喜悅與內在的掙扎。"
+   "introZh": "文亨泰在畫作中構築出一個融合表現主義與超現實主義思想的豐富世界。從他作品中孩童般的變形、符號化的編碼與溫暖的赭色調，可以看見眼鏡蛇畫派（CoBRA）與尚・杜布菲（Jean Dubuffet）的影響。以採集自人生中具有意義之地的水與泥土反覆洗刷畫布，是文亨泰的招牌技法；這種獨特的方法，讓每件作品都紮根於個人的記憶之中。他畫中的人物雖經簡化，卻依然充滿表現力，並常疊上具有象徵意義的數字：1代表自我、2代表關係、3代表家庭、4代表社會、5代表孤獨。〈Roof〉與〈Merry-Go-Round〉等近作延續了他對親密、鄉愁與日常生活奇趣的探索，以大膽的色彩與富觸感的畫面，同時喚起喜悅與內在的掙扎。",
+   "alsoAvailable": [
+    "moon-hyeongtae-4",
+    "moon-hyeongtae-5",
+    "moon-hyeongtae-6",
+    "moon-hyeongtae-7",
+    "moon-hyeongtae-8"
+   ]
   },
   {
    "slug": "yi-yi-jeong-eun",
@@ -1743,6 +1750,116 @@
    "slide": 10,
    "status": "available",
    "priceOnRequest": true
+  },
+  {
+   "id": "moon-hyeongtae-4",
+   "artist": "moon-hyeongtae",
+   "title": "Perfect Picture",
+   "year": "2026",
+   "medium": "Mixed media",
+   "dimensions": "162.2 x 130.3 cm",
+   "frame": "",
+   "usd": "45,000",
+   "twd": "1,440,000",
+   "usdValue": 45000,
+   "image": {
+    "src": "img/moon-hyeongtae-4.jpg",
+    "w": 1208,
+    "h": 1486,
+    "thumb": "img/moon-hyeongtae-4_t.jpg"
+   },
+   "extras": [],
+   "status": "available",
+   "priceOnRequest": true,
+   "alsoAvailable": true
+  },
+  {
+   "id": "moon-hyeongtae-5",
+   "artist": "moon-hyeongtae",
+   "title": "Pasta",
+   "year": "2026",
+   "medium": "Mixed media",
+   "dimensions": "91.0 x 116.8 cm",
+   "frame": "",
+   "usd": "30,000",
+   "twd": "960,000",
+   "usdValue": 30000,
+   "image": {
+    "src": "img/moon-hyeongtae-5.jpg",
+    "w": 1451,
+    "h": 1108,
+    "thumb": "img/moon-hyeongtae-5_t.jpg"
+   },
+   "extras": [],
+   "status": "available",
+   "priceOnRequest": true,
+   "alsoAvailable": true
+  },
+  {
+   "id": "moon-hyeongtae-6",
+   "artist": "moon-hyeongtae",
+   "title": "Change",
+   "year": "2026",
+   "medium": "Mixed media",
+   "dimensions": "116.8 x 91.0 cm",
+   "frame": "",
+   "usd": "30,000",
+   "twd": "960,000",
+   "usdValue": 30000,
+   "image": {
+    "src": "img/moon-hyeongtae-6.jpg",
+    "w": 1168,
+    "h": 1486,
+    "thumb": "img/moon-hyeongtae-6_t.jpg"
+   },
+   "extras": [],
+   "status": "available",
+   "priceOnRequest": true,
+   "alsoAvailable": true
+  },
+  {
+   "id": "moon-hyeongtae-7",
+   "artist": "moon-hyeongtae",
+   "title": "Move!",
+   "year": "2026",
+   "medium": "Mixed media",
+   "dimensions": "72.7 x 60.6 cm",
+   "frame": "",
+   "usd": "15,000",
+   "twd": "480,000",
+   "usdValue": 15000,
+   "image": {
+    "src": "img/moon-hyeongtae-7.jpg",
+    "w": 1161,
+    "h": 1319,
+    "thumb": "img/moon-hyeongtae-7_t.jpg"
+   },
+   "extras": [],
+   "status": "available",
+   "priceOnRequest": true,
+   "alsoAvailable": true
+  },
+  {
+   "id": "moon-hyeongtae-8",
+   "artist": "moon-hyeongtae",
+   "title": "The Third Arm",
+   "year": "2026",
+   "medium": "Mixed media",
+   "dimensions": "53.0 x 45.5 cm",
+   "frame": "",
+   "usd": "9,000",
+   "twd": "288,000",
+   "usdValue": 9000,
+   "image": {
+    "src": "img/moon-hyeongtae-8.jpg",
+    "w": 1184,
+    "h": 1303,
+    "thumb": "img/moon-hyeongtae-8_t.jpg"
+   },
+   "extras": [],
+   "status": "available",
+   "priceOnRequest": true,
+   "alsoAvailable": true
   },
   {
    "id": "yi-yi-jeong-eun-1",

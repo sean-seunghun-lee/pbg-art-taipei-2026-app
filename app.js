@@ -3,6 +3,8 @@
   const data = await (await fetch('data.json')).json();
   const artistBy = Object.fromEntries(data.artists.map(a => [a.slug, a]));
   const workBy = Object.fromEntries(data.works.map(w => [w.id, w]));
+  // "alsoAvailable": true marks works not shown at the booth; they appear only on the artist's page (artist.alsoAvailable)
+  const boothWorks = data.works.filter(w => !w.alsoAvailable);
   const INQUIRY = 'shlee@printbakery.com';
   const WHATSAPP = 'https://wa.me/821050138072';
   const LINE = 'https://line.me/ti/p/cjycU2BKMJ';
@@ -45,7 +47,7 @@
   }
 
   function viewWorks() {
-    let list = data.works.filter(w => (state.artist === 'all' || w.artist === state.artist) && (state.price === 'all' || (!hidePrice(w) && PRICE[state.price][1](w.usdValue))));
+    let list = boothWorks.filter(w => (state.artist === 'all' || w.artist === state.artist) && (state.price === 'all' || (!hidePrice(w) && PRICE[state.price][1](w.usdValue))));
     if (state.sort === 'low') list = [...list].sort((a, b) => hidePrice(a) - hidePrice(b) || a.usdValue - b.usdValue);
     if (state.sort === 'high') list = [...list].sort((a, b) => hidePrice(a) - hidePrice(b) || b.usdValue - a.usdValue);
     const chips = [`<button class="chip ${state.artist === 'all' ? 'on' : ''}" data-artist="all">All artists</button>`]
@@ -55,7 +57,7 @@
         <div class="hero-txt"><h1>ART TAIPEI 2026</h1>
           <p>PBG · Booth ${esc(data.fair.booth)} · ${esc(data.fair.dates)} · ${esc(data.fair.venue)}</p></div></section>
       <div class="hero-cta"><a class="btn" href="${BOOTH}" target="_blank" rel="noopener">Explore the Booth in 3D</a></div>
-      <div class="sec-h"><h2>Works</h2><span class="count">${list.length} of ${data.works.length}</span></div>
+      <div class="sec-h"><h2>Works</h2><span class="count">${list.length} of ${boothWorks.length}</span></div>
       <div class="controls">
         <div class="chips">${chips}</div>
         <select id="price">${Object.entries(PRICE).map(([k, v]) => `<option value="${k}" ${state.price === k ? 'selected' : ''}>${v[0]}</option>`).join('')}</select>
@@ -97,6 +99,8 @@
       </section>
       <div class="sec-h"><h2>Works at Booth ${esc(data.fair.booth)}</h2><span class="count">${works.length}</span></div>
       <div class="grid">${works.map(card).join('')}</div>
+      ${a.alsoAvailable && a.alsoAvailable.length ? `<div class="sec-h"><h2>Also available</h2><span class="count">${a.alsoAvailable.length}</span></div>
+      <div class="grid">${a.alsoAvailable.map(id => card(workBy[id])).join('')}</div>` : ''}
       ${a.cv && a.cv.length ? `<div class="sec-h"><h2>CV</h2></div><div class="cv">${a.cv.map((s, i) => `
         <details ${i === 0 ? 'open' : ''}><summary>${esc(s.heading)}</summary>
           <ul>${s.lines.map(l => `<li>${esc(l)}</li>`).join('')}</ul></details>`).join('')}</div>` : ''}`;
@@ -134,9 +138,10 @@
       prev = set.pieces[(k - 1 + n) % n]; next = set.pieces[(k + 1) % n];
       prevHref = `#/work/${set.id}/${prev.no}`; nextHref = `#/work/${set.id}/${next.no}`;
     } else {
-      const i = data.works.indexOf(set);
-      prev = data.works[(i - 1 + data.works.length) % data.works.length];
-      next = data.works[(i + 1) % data.works.length];
+      const ring = set.alsoAvailable ? artistBy[set.artist].alsoAvailable.map(x => workBy[x]) : boothWorks;
+      const i = ring.indexOf(set);
+      prev = ring[(i - 1 + ring.length) % ring.length];
+      next = ring[(i + 1) % ring.length];
       prevHref = `#/work/${prev.id}`; nextHref = `#/work/${next.id}`;
     }
     const pnLabel = x => piece ? `No. ${x.no}, ${esc(x.title)}` : `${esc(artistBy[x.artist].name)}, ${esc(x.title)}`;
@@ -145,7 +150,9 @@
     const waText = encodeURIComponent(`Hello PBG, I am interested in ${a.name}, "${w.title}"${w.year ? " (" + w.year + ")" : ""}${hidePrice(w) ? '' : ` – USD ${w.usd}`} (ART TAIPEI 2026, Booth ${data.fair.booth}).`);
     const rows = [['Year', w.year], ['Medium', w.medium], ['Size', w.dimensions], ['Frame', w.frame]]
       .filter(r => r[1]).map(r => `<dt>${r[0]}</dt><dd>${esc(r[1])}</dd>`).join('');
-    app.innerHTML = `${piece ? `<a class="back" href="#/work/${set.id}">← ${esc(set.title)} (set of ${set.pieces.length})</a>` : '<a class="back" href="#/">← All works</a>'}
+    const back = piece ? `<a class="back" href="#/work/${set.id}">← ${esc(set.title)} (set of ${set.pieces.length})</a>`
+      : w.alsoAvailable ? `<a class="back" href="#/artist/${a.slug}">← ${esc(a.name)}</a>` : '<a class="back" href="#/">← All works</a>';
+    app.innerHTML = `${back}
       <section class="work">
         <div><div class="stage" id="stage"><img src="${w.image.src}" alt="${esc(w.title)}"></div>
           ${imgs.length > 1 ? `<div class="thumbs">${imgs.map((im, k) => `<button data-k="${k}" class="${k ? '' : 'on'}"><img src="${im.thumb || im.src}" alt=""></button>`).join('')}</div>` : ''}</div>
@@ -155,6 +162,7 @@
           <div class="bl">${esc(bline(a))}${a.instagram ? ' · ' + ig(a) : ''}</div>
           <h2>${esc(w.title)}</h2>
           <dl>${rows}</dl>
+          ${w.alsoAvailable ? '<div class="also">Also available · not exhibited at the booth</div>' : ''}
           <div class="price">${avail(w)}${hidePrice(w) ? por(w, 'usd') : `<div class="usd">USD ${esc(w.usd)}</div><div class="twd">TWD ${esc(w.twd)}</div>${w.priceNote ? `<div class="note">${esc(w.priceNote)}</div>` : ''}`}</div>
           <div class="actions">
             <a class="btn" href="mailto:${INQUIRY}?subject=${subject}&body=${body}">Inquire by mail</a>
