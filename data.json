@@ -1340,6 +1340,7 @@
      "usd": "1,450",
      "twd": "46,400",
      "usdValue": 1450,
+     "status": "sold",
      "image": {
       "src": "img/jae-yong-kim-2-p15.jpg",
       "w": 328,
@@ -1628,6 +1629,7 @@
      "usd": "1,150",
      "twd": "36,800",
      "usdValue": 1150,
+     "status": "sold",
      "image": {
       "src": "img/jae-yong-kim-2-p33.jpg",
       "w": 358,

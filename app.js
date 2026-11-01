@@ -115,12 +115,13 @@
   }
 
   // a set (e.g. Donut Madness, set of 16) lists its "pieces" in data.json; each piece has its own page at #/work/<id>/<no>
+  // a piece can carry its own "status": "sold", which overrides the set's status on its page
   const setLabel = (set, p) => `${set.title} (set of ${set.pieces.length}), No. ${p.no}`;
   function piecesMenu(set, curNo) {
     return `<div class="sec-h"><h2>Pieces in this set</h2><span class="count">${set.pieces.length} pieces</span></div>
       <div class="pieces">${set.pieces.map(p => `<a class="piece ${p.no === curNo ? 'on' : ''}" href="#/work/${set.id}/${p.no}">
         <div class="ph"><img src="${p.image.thumb}" alt="${esc(p.title)}" loading="lazy"></div>
-        <span class="no">No. ${p.no}</span><span class="t">${esc(p.title)}</span></a>`).join('')}</div>`;
+        <span class="no">No. ${p.no}</span><span class="t">${esc(p.title)}</span>${sold(p) ? avail(p) : ''}</a>`).join('')}</div>`;
   }
 
   function viewWork(id, sub) {
