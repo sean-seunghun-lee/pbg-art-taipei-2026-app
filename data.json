@@ -1613,6 +1613,7 @@
      "usd": "2,700",
      "twd": "86,400",
      "usdValue": 2700,
+     "status": "sold",
      "image": {
       "src": "img/jae-yong-kim-2-p32.jpg",
       "w": 361,
