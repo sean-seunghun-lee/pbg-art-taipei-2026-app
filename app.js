@@ -19,7 +19,9 @@
   // "priceOnRequest": true in data.json shows "Price upon request" instead of the price
   const hidePrice = w => sold(w) || w.priceOnRequest;
   const por = (w, cls) => !sold(w) && w.priceOnRequest ? `<div class="${cls} on-request">Price upon request</div>` : '';
-  const avail = w => sold(w) ? '<span class="av sold">Sold</span>' : '<span class="av">Available</span>';
+  // Available/Sold labels are hidden everywhere; set to true to show them again (sold prices stay hidden either way)
+  const SHOW_AVAILABILITY = false;
+  const avail = w => !SHOW_AVAILABILITY ? '' : sold(w) ? '<span class="av sold">Sold</span>' : '<span class="av">Available</span>';
   const ig = a =>a.instagram ? `<a href="https://www.instagram.com/${esc(a.instagram)}/" target="_blank" rel="noopener">@${esc(a.instagram)}</a>` : '';
 
   // intro language: remembered per viewer; Chinese-language phones start in 繁體中文
