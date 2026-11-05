@@ -17,8 +17,10 @@
   // sold works keep their price in data.json but never show it (cards, detail, inquiry text, price filter/sort)
   const sold = w => w.status === 'sold';
   // "priceOnRequest": true in data.json shows "Price upon request" instead of the price
-  const hidePrice = w => sold(w) || w.priceOnRequest;
-  const por = (w, cls) => !sold(w) && w.priceOnRequest ? `<div class="${cls} on-request">Price upon request</div>` : '';
+  // prices are hidden everywhere (cards, detail, price notes, inquiry text, price filter/sort, footer note); set to true to show them again
+  const SHOW_PRICES = false;
+  const hidePrice = w => !SHOW_PRICES || sold(w) || w.priceOnRequest;
+  const por = (w, cls) => SHOW_PRICES && !sold(w) && w.priceOnRequest ? `<div class="${cls} on-request">Price upon request</div>` : '';
   // Available/Sold labels are hidden everywhere; set to true to show them again (sold prices stay hidden either way)
   const SHOW_AVAILABILITY = false;
   const avail = w => !SHOW_AVAILABILITY ? '' : sold(w) ? '<span class="av sold">Sold</span>' : '<span class="av">Available</span>';
@@ -62,17 +64,19 @@
       <div class="sec-h"><h2>Works</h2><span class="count">${list.length} of ${boothWorks.length}</span></div>
       <div class="controls">
         <div class="chips">${chips}</div>
-        <select id="price">${Object.entries(PRICE).map(([k, v]) => `<option value="${k}" ${state.price === k ? 'selected' : ''}>${v[0]}</option>`).join('')}</select>
+        ${SHOW_PRICES ? `<select id="price">${Object.entries(PRICE).map(([k, v]) => `<option value="${k}" ${state.price === k ? 'selected' : ''}>${v[0]}</option>`).join('')}</select>
         <select id="sort">
           <option value="featured" ${state.sort === 'featured' ? 'selected' : ''}>Sort: Featured</option>
           <option value="low" ${state.sort === 'low' ? 'selected' : ''}>Price: Low to high</option>
           <option value="high" ${state.sort === 'high' ? 'selected' : ''}>Price: High to low</option>
-        </select>
+        </select>` : ''}
       </div>
       <div class="grid">${list.map(card).join('') || '<p class="empty">No works match these filters.</p>'}</div>`;
     app.querySelectorAll('[data-artist]').forEach(b => b.onclick = () => { state.artist = b.dataset.artist; keepScroll(viewWorks); });
-    app.querySelector('#price').onchange = e => { state.price = e.target.value; keepScroll(viewWorks); };
-    app.querySelector('#sort').onchange = e => { state.sort = e.target.value; keepScroll(viewWorks); };
+    if (SHOW_PRICES) {
+      app.querySelector('#price').onchange = e => { state.price = e.target.value; keepScroll(viewWorks); };
+      app.querySelector('#sort').onchange = e => { state.sort = e.target.value; keepScroll(viewWorks); };
+    }
   }
 
   function keepScroll(fn) { const y = scrollY; fn(); scrollTo(0, y); }
@@ -166,7 +170,7 @@
           <h2>${esc(w.title)}</h2>
           <dl>${rows}</dl>
           ${w.alsoAvailable ? '<div class="also">Also available · not exhibited at the booth</div>' : ''}
-          <div class="price">${avail(w)}${hidePrice(w) ? por(w, 'usd') : `<div class="usd">USD ${esc(w.usd)}</div><div class="twd">TWD ${esc(w.twd)}</div>${w.priceNote ? `<div class="note">${esc(w.priceNote)}</div>` : ''}`}</div>
+          ${!SHOW_PRICES && !SHOW_AVAILABILITY ? '' : `<div class="price">${avail(w)}${hidePrice(w) ? por(w, 'usd') : `<div class="usd">USD ${esc(w.usd)}</div><div class="twd">TWD ${esc(w.twd)}</div>${w.priceNote ? `<div class="note">${esc(w.priceNote)}</div>` : ''}`}</div>`}
           <div class="actions">
             <a class="btn" href="mailto:${INQUIRY}?subject=${subject}&body=${body}">Inquire by mail</a>
             <a class="btn wa" href="${WHATSAPP}?text=${waText}" target="_blank" rel="noopener">Inquire on WhatsApp</a>
