@@ -1,6 +1,6 @@
 (async function () {
   const app = document.getElementById('app');
-  const data = await (await fetch('data.json?v=20261105')).json();
+  const data = await (await fetch('data.json?v=20261105b')).json();
   const artistBy = Object.fromEntries(data.artists.map(a => [a.slug, a]));
   const workBy = Object.fromEntries(data.works.map(w => [w.id, w]));
   // "alsoAvailable": true marks works not shown at the booth; they appear only on the artist's page (artist.alsoAvailable)
